@@ -1,0 +1,70 @@
+
+                                      ARENA Simulation Results
+                         alex.davis.neuwiem@grad.ufsc.br - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: loja 1                                                      Data da execução :11/16/2024
+Analista: alex.davis.neuwiem@grad.ufsc.br                             Data de revisão do modelo:11/16/2024
+
+Replicação terminada no tempo de      : 8.0 Horas 
+Unidade de Tempo Base: Horas
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .35411     (Insuf)    .00000     .80689         97    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         97    
+Entity 1.WaitTime                           .19605     (Insuf)    .00000     .71325         97    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         97    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         97    
+Entity 1.TotalTime                          .55016     (Insuf)    .02533     1.3254         97    
+Atendimento.Queue.WaitingTime               .21497     (Insuf)    .00000     .71325        102    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                7.4824     (Insuf)    .00000     18.000     13.000    
+Funcionário 5.NumberBusy                    .91328     (Insuf)    .00000     1.0000     1.0000    
+Funcionário 5.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionário 5.Utilization                   .91328     (Insuf)    .00000     1.0000     1.0000    
+Funcionário 4.NumberBusy                    .87733     (Insuf)    .00000     1.0000     1.0000    
+Funcionário 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionário 4.Utilization                   .87733     (Insuf)    .00000     1.0000     1.0000    
+Funcionário 3.NumberBusy                    .86116     (Insuf)    .00000     1.0000     1.0000    
+Funcionário 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionário 3.Utilization                   .86116     (Insuf)    .00000     1.0000     1.0000    
+Funcionário 2.NumberBusy                    .88671     (Insuf)    .00000     1.0000     1.0000    
+Funcionário 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionário 2.Utilization                   .88671     (Insuf)    .00000     1.0000     1.0000    
+Funcionário 1.NumberBusy                    .84186     (Insuf)    .00000     1.0000     1.0000    
+Funcionário 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionário 1.Utilization                   .84186     (Insuf)    .00000     1.0000     1.0000    
+Atendimento.Queue.NumberInQueue             3.1021     (Insuf)    .00000     13.000     8.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+Entity 1.NumberIn                           110.00    
+Entity 1.NumberOut                          97.000    
+Funcionário 5.NumberSeized                  20.000    
+Funcionário 5.ScheduledUtilization          .91328    
+Funcionário 4.NumberSeized                  21.000    
+Funcionário 4.ScheduledUtilization          .87733    
+Funcionário 3.NumberSeized                  21.000    
+Funcionário 3.ScheduledUtilization          .86116    
+Funcionário 2.NumberSeized                  20.000    
+Funcionário 2.ScheduledUtilization          .88671    
+Funcionário 1.NumberSeized                  20.000    
+Funcionário 1.ScheduledUtilization          .84186    
+System.NumberOut                            97.000    
+
+
+Tempo executando a simulação: 0.08 minutos.
+Simulação completada.

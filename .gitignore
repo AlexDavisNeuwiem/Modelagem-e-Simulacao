@@ -1,11 +1,12 @@
 # Arena files
-.xlsm
-.Backup.doe
-.db
-.dsn
-.opw
-.out
-.p
+*.xlsm
+*.db
+*.Backup.doe
+*.dsn
+*.html
+*.opw
+*.out
+*.p
 
 # VS Code folder
-.vscode
+*.vscode

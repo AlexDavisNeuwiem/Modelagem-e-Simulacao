@@ -1,0 +1,1096 @@
+
+                                      ARENA Simulation Results
+                             lucasctruppelm@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 10
+
+Projeto: Loja 3                                                      Data da execução :11/28/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+
+Replicação terminada no tempo de      : 480.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+cliente.VATime                              .00000     (Insuf)    .00000     .00000         86    
+cliente.NVATime                             .00000     (Insuf)    .00000     .00000         86    
+cliente.WaitTime                            1.3271     (Insuf)    .00000     10.738         86    
+cliente.TranTime                            .00000     (Insuf)    .00000     .00000         86    
+cliente.OtherTime                           18.808     (Insuf)    .00000     45.233         86    
+cliente.TotalTime                           20.135     (Insuf)    .00000     45.233         86    
+cliente.VACost                              .00000     (Insuf)    .00000     .00000         86    
+cliente.NVACost                             .00000     (Insuf)    .00000     .00000         86    
+cliente.WaitCost                            .00000     (Insuf)    .00000     .00000         86    
+cliente.TranCost                            .00000     (Insuf)    .00000     .00000         86    
+cliente.OtherCost                           .00000     (Insuf)    .00000     .00000         86    
+cliente.TotalCost                           .00000     (Insuf)    .00000     .00000         86    
+filaGeral.Queue.WaitingTime                 1.2982     (Insuf)    .00000     10.738         84    
+filaGeral.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000         84    
+filaPreferencial.Queue.WaitingTime          .72614     (Insuf)    .00000     5.0829          7    
+filaPreferencial.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000          7    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+cliente.WIP                                 3.6669     (Insuf)    .00000     9.0000     5.0000    
+Funcionario 5.NumberBusy                    .72555     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 5.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 5.Utilization                   .72555     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberBusy                    .83376     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 4.Utilization                   .83376     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .51126     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 3.Utilization                   .51126     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .56944     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 2.Utilization                   .56944     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberBusy                    .78913     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 1.Utilization                   .78913     (Insuf)    .00000     1.0000     1.0000    
+filaGeral.Queue.NumberInQueue               .22719     (Insuf)    .00000     4.0000     .00000    
+filaPreferencial.Queue.NumberInQueue        .01059     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+cliente.NumberIn                            91.000    
+cliente.NumberOut                           86.000    
+Funcionario 5.NumberSeized                  19.000    
+Funcionario 5.ScheduledUtilization          .72555    
+Funcionario 5.BusyCost                      .00000    
+Funcionario 5.IdleCost                      .00000    
+Funcionario 5.UsageCost                     .00000    
+Funcionario 4.NumberSeized                  23.000    
+Funcionario 4.ScheduledUtilization          .83376    
+Funcionario 4.BusyCost                      .00000    
+Funcionario 4.IdleCost                      .00000    
+Funcionario 4.UsageCost                     .00000    
+Funcionario 3.NumberSeized                  15.000    
+Funcionario 3.ScheduledUtilization          .51126    
+Funcionario 3.BusyCost                      .00000    
+Funcionario 3.IdleCost                      .00000    
+Funcionario 3.UsageCost                     .00000    
+Funcionario 2.NumberSeized                  15.000    
+Funcionario 2.ScheduledUtilization          .56944    
+Funcionario 2.BusyCost                      .00000    
+Funcionario 2.IdleCost                      .00000    
+Funcionario 2.UsageCost                     .00000    
+Funcionario 1.NumberSeized                  19.000    
+Funcionario 1.ScheduledUtilization          .78913    
+Funcionario 1.BusyCost                      .00000    
+Funcionario 1.IdleCost                      .00000    
+Funcionario 1.UsageCost                     .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            86.000    
+
+Iniciando replicação 2 de 10
+
+                                      ARENA Simulation Results
+                             lucasctruppelm@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 2 de 10
+
+Projeto: Loja 3                                                      Data da execução :11/28/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+
+Replicação terminada no tempo de      : 480.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+cliente.VATime                              .00000     (Insuf)    .00000     .00000        108    
+cliente.NVATime                             .00000     (Insuf)    .00000     .00000        108    
+cliente.WaitTime                            18.157     (Insuf)    .00000     56.156        108    
+cliente.TranTime                            .00000     (Insuf)    .00000     .00000        108    
+cliente.OtherTime                           20.589     (Insuf)    .00000     41.221        108    
+cliente.TotalTime                           38.746     (Insuf)    2.2677     87.236        108    
+cliente.VACost                              .00000     (Insuf)    .00000     .00000        108    
+cliente.NVACost                             .00000     (Insuf)    .00000     .00000        108    
+cliente.WaitCost                            .00000     (Insuf)    .00000     .00000        108    
+cliente.TranCost                            .00000     (Insuf)    .00000     .00000        108    
+cliente.OtherCost                           .00000     (Insuf)    .00000     .00000        108    
+cliente.TotalCost                           .00000     (Insuf)    .00000     .00000        108    
+filaGeral.Queue.WaitingTime                 19.041     (Insuf)    .00000     56.156        104    
+filaGeral.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000        104    
+filaPreferencial.Queue.WaitingTime          6.5651     (Insuf)    .00000     16.953          9    
+filaPreferencial.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000          9    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+cliente.WIP                                 9.1961     (Insuf)    .00000     18.000     9.0000    
+Funcionario 5.NumberBusy                    .96634     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 5.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 5.Utilization                   .96634     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberBusy                    .96078     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 4.Utilization                   .96078     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .96093     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 3.Utilization                   .96093     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .95021     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 2.Utilization                   .95021     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberBusy                    .94063     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 1.Utilization                   .94063     (Insuf)    .00000     1.0000     1.0000    
+filaGeral.Queue.NumberInQueue               4.2941     (Insuf)    .00000     13.000     4.0000    
+filaPreferencial.Queue.NumberInQueue        .12310     (Insuf)    .00000     2.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+cliente.NumberIn                            117.00    
+cliente.NumberOut                           108.00    
+Funcionario 5.NumberSeized                  20.000    
+Funcionario 5.ScheduledUtilization          .96634    
+Funcionario 5.BusyCost                      .00000    
+Funcionario 5.IdleCost                      .00000    
+Funcionario 5.UsageCost                     .00000    
+Funcionario 4.NumberSeized                  21.000    
+Funcionario 4.ScheduledUtilization          .96078    
+Funcionario 4.BusyCost                      .00000    
+Funcionario 4.IdleCost                      .00000    
+Funcionario 4.UsageCost                     .00000    
+Funcionario 3.NumberSeized                  23.000    
+Funcionario 3.ScheduledUtilization          .96093    
+Funcionario 3.BusyCost                      .00000    
+Funcionario 3.IdleCost                      .00000    
+Funcionario 3.UsageCost                     .00000    
+Funcionario 2.NumberSeized                  24.000    
+Funcionario 2.ScheduledUtilization          .95021    
+Funcionario 2.BusyCost                      .00000    
+Funcionario 2.IdleCost                      .00000    
+Funcionario 2.UsageCost                     .00000    
+Funcionario 1.NumberSeized                  25.000    
+Funcionario 1.ScheduledUtilization          .94063    
+Funcionario 1.BusyCost                      .00000    
+Funcionario 1.IdleCost                      .00000    
+Funcionario 1.UsageCost                     .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            108.00    
+
+Iniciando replicação 3 de 10
+
+                                      ARENA Simulation Results
+                             lucasctruppelm@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 3 de 10
+
+Projeto: Loja 3                                                      Data da execução :11/28/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+
+Replicação terminada no tempo de      : 480.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+cliente.VATime                              .00000     (Insuf)    .00000     .00000        114    
+cliente.NVATime                             .00000     (Insuf)    .00000     .00000        114    
+cliente.WaitTime                            19.418     (Insuf)    .00000     54.725        114    
+cliente.TranTime                            .00000     (Insuf)    .00000     .00000        114    
+cliente.OtherTime                           19.504     (Insuf)    .00000     50.809        114    
+cliente.TotalTime                           38.923     (Insuf)    1.6377     87.305        114    
+cliente.VACost                              .00000     (Insuf)    .00000     .00000        114    
+cliente.NVACost                             .00000     (Insuf)    .00000     .00000        114    
+cliente.WaitCost                            .00000     (Insuf)    .00000     .00000        114    
+cliente.TranCost                            .00000     (Insuf)    .00000     .00000        114    
+cliente.OtherCost                           .00000     (Insuf)    .00000     .00000        114    
+cliente.TotalCost                           .00000     (Insuf)    .00000     .00000        114    
+filaGeral.Queue.WaitingTime                 21.530     (Insuf)    .00000     54.725        110    
+filaGeral.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000        110    
+filaPreferencial.Queue.WaitingTime          3.8096     (Insuf)    .00000     15.099          9    
+filaPreferencial.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000          9    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+cliente.WIP                                 10.355     (Insuf)    .00000     19.000     16.000    
+Funcionario 5.NumberBusy                    .93541     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 5.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 5.Utilization                   .93541     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberBusy                    .96564     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 4.Utilization                   .96564     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .91665     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 3.Utilization                   .91665     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .98233     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 2.Utilization                   .98233     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberBusy                    .96241     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 1.Utilization                   .96241     (Insuf)    .00000     1.0000     1.0000    
+filaGeral.Queue.NumberInQueue               5.5216     (Insuf)    .00000     14.000     11.000    
+filaPreferencial.Queue.NumberInQueue        .07143     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+cliente.NumberIn                            130.00    
+cliente.NumberOut                           114.00    
+Funcionario 5.NumberSeized                  29.000    
+Funcionario 5.ScheduledUtilization          .93541    
+Funcionario 5.BusyCost                      .00000    
+Funcionario 5.IdleCost                      .00000    
+Funcionario 5.UsageCost                     .00000    
+Funcionario 4.NumberSeized                  23.000    
+Funcionario 4.ScheduledUtilization          .96564    
+Funcionario 4.BusyCost                      .00000    
+Funcionario 4.IdleCost                      .00000    
+Funcionario 4.UsageCost                     .00000    
+Funcionario 3.NumberSeized                  23.000    
+Funcionario 3.ScheduledUtilization          .91665    
+Funcionario 3.BusyCost                      .00000    
+Funcionario 3.IdleCost                      .00000    
+Funcionario 3.UsageCost                     .00000    
+Funcionario 2.NumberSeized                  21.000    
+Funcionario 2.ScheduledUtilization          .98233    
+Funcionario 2.BusyCost                      .00000    
+Funcionario 2.IdleCost                      .00000    
+Funcionario 2.UsageCost                     .00000    
+Funcionario 1.NumberSeized                  23.000    
+Funcionario 1.ScheduledUtilization          .96241    
+Funcionario 1.BusyCost                      .00000    
+Funcionario 1.IdleCost                      .00000    
+Funcionario 1.UsageCost                     .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            114.00    
+
+Iniciando replicação 4 de 10
+
+                                      ARENA Simulation Results
+                             lucasctruppelm@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 4 de 10
+
+Projeto: Loja 3                                                      Data da execução :11/28/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+
+Replicação terminada no tempo de      : 480.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+cliente.VATime                              .00000     (Insuf)    .00000     .00000        106    
+cliente.NVATime                             .00000     (Insuf)    .00000     .00000        106    
+cliente.WaitTime                            3.8787     (Insuf)    .00000     23.718        106    
+cliente.TranTime                            .00000     (Insuf)    .00000     .00000        106    
+cliente.OtherTime                           19.035     (Insuf)    .00000     44.848        106    
+cliente.TotalTime                           22.914     (Insuf)    .00000     48.318        106    
+cliente.VACost                              .00000     (Insuf)    .00000     .00000        106    
+cliente.NVACost                             .00000     (Insuf)    .00000     .00000        106    
+cliente.WaitCost                            .00000     (Insuf)    .00000     .00000        106    
+cliente.TranCost                            .00000     (Insuf)    .00000     .00000        106    
+cliente.OtherCost                           .00000     (Insuf)    .00000     .00000        106    
+cliente.TotalCost                           .00000     (Insuf)    .00000     .00000        106    
+filaGeral.Queue.WaitingTime                 4.1836     (Insuf)    .00000     23.718        105    
+filaGeral.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000        105    
+filaPreferencial.Queue.WaitingTime          4.1851     (Insuf)    .00000     11.959          6    
+filaPreferencial.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000          6    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+cliente.WIP                                 5.2950     (Insuf)    .00000     10.000     6.0000    
+Funcionario 5.NumberBusy                    .89359     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 5.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 5.Utilization                   .89359     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberBusy                    .96954     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 4.Utilization                   .96954     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .79857     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 3.Utilization                   .79857     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .81716     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 2.Utilization                   .81716     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberBusy                    .83720     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 1.Utilization                   .83720     (Insuf)    .00000     1.0000     1.0000    
+filaGeral.Queue.NumberInQueue               .92671     (Insuf)    .00000     5.0000     1.0000    
+filaPreferencial.Queue.NumberInQueue        .05231     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+cliente.NumberIn                            112.00    
+cliente.NumberOut                           106.00    
+Funcionario 5.NumberSeized                  20.000    
+Funcionario 5.ScheduledUtilization          .89359    
+Funcionario 5.BusyCost                      .00000    
+Funcionario 5.IdleCost                      .00000    
+Funcionario 5.UsageCost                     .00000    
+Funcionario 4.NumberSeized                  23.000    
+Funcionario 4.ScheduledUtilization          .96954    
+Funcionario 4.BusyCost                      .00000    
+Funcionario 4.IdleCost                      .00000    
+Funcionario 4.UsageCost                     .00000    
+Funcionario 3.NumberSeized                  22.000    
+Funcionario 3.ScheduledUtilization          .79857    
+Funcionario 3.BusyCost                      .00000    
+Funcionario 3.IdleCost                      .00000    
+Funcionario 3.UsageCost                     .00000    
+Funcionario 2.NumberSeized                  19.000    
+Funcionario 2.ScheduledUtilization          .81716    
+Funcionario 2.BusyCost                      .00000    
+Funcionario 2.IdleCost                      .00000    
+Funcionario 2.UsageCost                     .00000    
+Funcionario 1.NumberSeized                  27.000    
+Funcionario 1.ScheduledUtilization          .83720    
+Funcionario 1.BusyCost                      .00000    
+Funcionario 1.IdleCost                      .00000    
+Funcionario 1.UsageCost                     .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            106.00    
+
+Iniciando replicação 5 de 10
+
+                                      ARENA Simulation Results
+                             lucasctruppelm@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 5 de 10
+
+Projeto: Loja 3                                                      Data da execução :11/28/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+
+Replicação terminada no tempo de      : 480.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+cliente.VATime                              .00000     (Insuf)    .00000     .00000        112    
+cliente.NVATime                             .00000     (Insuf)    .00000     .00000        112    
+cliente.WaitTime                            7.1506     (Insuf)    .00000     25.115        112    
+cliente.TranTime                            .00000     (Insuf)    .00000     .00000        112    
+cliente.OtherTime                           17.979     (Insuf)    .00000     40.722        112    
+cliente.TotalTime                           25.130     (Insuf)    .00000     64.049        112    
+cliente.VACost                              .00000     (Insuf)    .00000     .00000        112    
+cliente.NVACost                             .00000     (Insuf)    .00000     .00000        112    
+cliente.WaitCost                            .00000     (Insuf)    .00000     .00000        112    
+cliente.TranCost                            .00000     (Insuf)    .00000     .00000        112    
+cliente.OtherCost                           .00000     (Insuf)    .00000     .00000        112    
+cliente.TotalCost                           .00000     (Insuf)    .00000     .00000        112    
+filaGeral.Queue.WaitingTime                 7.2559     (Insuf)    .00000     25.115        111    
+filaGeral.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000        111    
+filaPreferencial.Queue.WaitingTime          1.7547     (Insuf)    .00000     5.1015          6    
+filaPreferencial.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000          6    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+cliente.WIP                                 5.9890     (Insuf)    .00000     12.000     7.0000    
+Funcionario 5.NumberBusy                    .89369     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 5.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 5.Utilization                   .89369     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberBusy                    .92144     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 4.Utilization                   .92144     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .75758     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 3.Utilization                   .75758     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .83365     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 2.Utilization                   .83365     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberBusy                    .87319     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 1.Utilization                   .87319     (Insuf)    .00000     1.0000     1.0000    
+filaGeral.Queue.NumberInQueue               1.6875     (Insuf)    .00000     7.0000     2.0000    
+filaPreferencial.Queue.NumberInQueue        .02193     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+cliente.NumberIn                            119.00    
+cliente.NumberOut                           112.00    
+Funcionario 5.NumberSeized                  26.000    
+Funcionario 5.ScheduledUtilization          .89369    
+Funcionario 5.BusyCost                      .00000    
+Funcionario 5.IdleCost                      .00000    
+Funcionario 5.UsageCost                     .00000    
+Funcionario 4.NumberSeized                  25.000    
+Funcionario 4.ScheduledUtilization          .92144    
+Funcionario 4.BusyCost                      .00000    
+Funcionario 4.IdleCost                      .00000    
+Funcionario 4.UsageCost                     .00000    
+Funcionario 3.NumberSeized                  16.000    
+Funcionario 3.ScheduledUtilization          .75758    
+Funcionario 3.BusyCost                      .00000    
+Funcionario 3.IdleCost                      .00000    
+Funcionario 3.UsageCost                     .00000    
+Funcionario 2.NumberSeized                  25.000    
+Funcionario 2.ScheduledUtilization          .83365    
+Funcionario 2.BusyCost                      .00000    
+Funcionario 2.IdleCost                      .00000    
+Funcionario 2.UsageCost                     .00000    
+Funcionario 1.NumberSeized                  25.000    
+Funcionario 1.ScheduledUtilization          .87319    
+Funcionario 1.BusyCost                      .00000    
+Funcionario 1.IdleCost                      .00000    
+Funcionario 1.UsageCost                     .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            112.00    
+
+Iniciando replicação 6 de 10
+
+                                      ARENA Simulation Results
+                             lucasctruppelm@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 6 de 10
+
+Projeto: Loja 3                                                      Data da execução :11/28/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+
+Replicação terminada no tempo de      : 480.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+cliente.VATime                              .00000     (Insuf)    .00000     .00000        108    
+cliente.NVATime                             .00000     (Insuf)    .00000     .00000        108    
+cliente.WaitTime                            4.4206     (Insuf)    .00000     24.915        108    
+cliente.TranTime                            .00000     (Insuf)    .00000     .00000        108    
+cliente.OtherTime                           17.811     (Insuf)    .00000     38.291        108    
+cliente.TotalTime                           22.232     (Insuf)    .39782     51.483        108    
+cliente.VACost                              .00000     (Insuf)    .00000     .00000        108    
+cliente.NVACost                             .00000     (Insuf)    .00000     .00000        108    
+cliente.WaitCost                            .00000     (Insuf)    .00000     .00000        108    
+cliente.TranCost                            .00000     (Insuf)    .00000     .00000        108    
+cliente.OtherCost                           .00000     (Insuf)    .00000     .00000        108    
+cliente.TotalCost                           .00000     (Insuf)    .00000     .00000        108    
+filaGeral.Queue.WaitingTime                 4.6942     (Insuf)    .00000     24.915        110    
+filaGeral.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000        110    
+filaPreferencial.Queue.WaitingTime          3.0312     (Insuf)    .39782     5.6239          3    
+filaPreferencial.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000          3    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+cliente.WIP                                 5.3575     (Insuf)    .00000     13.000     12.000    
+Funcionario 5.NumberBusy                    .87265     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 5.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 5.Utilization                   .87265     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberBusy                    .91342     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 4.Utilization                   .91342     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .71481     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 3.Utilization                   .71481     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .78314     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 2.Utilization                   .78314     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberBusy                    .87741     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 1.Utilization                   .87741     (Insuf)    .00000     1.0000     1.0000    
+filaGeral.Queue.NumberInQueue               1.1417     (Insuf)    .00000     7.0000     5.0000    
+filaPreferencial.Queue.NumberInQueue        .05440     (Insuf)    .00000     2.0000     2.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+cliente.NumberIn                            120.00    
+cliente.NumberOut                           108.00    
+Funcionario 5.NumberSeized                  21.000    
+Funcionario 5.ScheduledUtilization          .87265    
+Funcionario 5.BusyCost                      .00000    
+Funcionario 5.IdleCost                      .00000    
+Funcionario 5.UsageCost                     .00000    
+Funcionario 4.NumberSeized                  24.000    
+Funcionario 4.ScheduledUtilization          .91342    
+Funcionario 4.BusyCost                      .00000    
+Funcionario 4.IdleCost                      .00000    
+Funcionario 4.UsageCost                     .00000    
+Funcionario 3.NumberSeized                  20.000    
+Funcionario 3.ScheduledUtilization          .71481    
+Funcionario 3.BusyCost                      .00000    
+Funcionario 3.IdleCost                      .00000    
+Funcionario 3.UsageCost                     .00000    
+Funcionario 2.NumberSeized                  23.000    
+Funcionario 2.ScheduledUtilization          .78314    
+Funcionario 2.BusyCost                      .00000    
+Funcionario 2.IdleCost                      .00000    
+Funcionario 2.UsageCost                     .00000    
+Funcionario 1.NumberSeized                  25.000    
+Funcionario 1.ScheduledUtilization          .87741    
+Funcionario 1.BusyCost                      .00000    
+Funcionario 1.IdleCost                      .00000    
+Funcionario 1.UsageCost                     .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            108.00    
+
+Iniciando replicação 7 de 10
+
+                                      ARENA Simulation Results
+                             lucasctruppelm@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 7 de 10
+
+Projeto: Loja 3                                                      Data da execução :11/28/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+
+Replicação terminada no tempo de      : 480.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+cliente.VATime                              .00000     (Insuf)    .00000     .00000        102    
+cliente.NVATime                             .00000     (Insuf)    .00000     .00000        102    
+cliente.WaitTime                            34.304     (Insuf)    .00000     81.053        102    
+cliente.TranTime                            .00000     (Insuf)    .00000     .00000        102    
+cliente.OtherTime                           22.051     (Insuf)    .00000     43.224        102    
+cliente.TotalTime                           56.355     (Insuf)    11.425     109.61        102    
+cliente.VACost                              .00000     (Insuf)    .00000     .00000        102    
+cliente.NVACost                             .00000     (Insuf)    .00000     .00000        102    
+cliente.WaitCost                            .00000     (Insuf)    .00000     .00000        102    
+cliente.TranCost                            .00000     (Insuf)    .00000     .00000        102    
+cliente.OtherCost                           .00000     (Insuf)    .00000     .00000        102    
+cliente.TotalCost                           .00000     (Insuf)    .00000     .00000        102    
+filaGeral.Queue.WaitingTime                 37.480     (Insuf)    .00000     81.053        101    
+filaGeral.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000        101    
+filaPreferencial.Queue.WaitingTime          4.3399     (Insuf)    2.0231     9.8085          6    
+filaPreferencial.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000          6    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+cliente.WIP                                 14.237     (Insuf)    .00000     25.000     22.000    
+Funcionario 5.NumberBusy                    .99973     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 5.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 5.Utilization                   .99973     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberBusy                    1.0000     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 4.Utilization                   1.0000     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .96607     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 3.Utilization                   .96607     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .97733     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 2.Utilization                   .97733     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberBusy                    .98044     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 1.Utilization                   .98044     (Insuf)    .00000     1.0000     1.0000    
+filaGeral.Queue.NumberInQueue               9.2593     (Insuf)    .00000     20.000     17.000    
+filaPreferencial.Queue.NumberInQueue        .05425     (Insuf)    .00000     2.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+cliente.NumberIn                            124.00    
+cliente.NumberOut                           102.00    
+Funcionario 5.NumberSeized                  20.000    
+Funcionario 5.ScheduledUtilization          .99973    
+Funcionario 5.BusyCost                      .00000    
+Funcionario 5.IdleCost                      .00000    
+Funcionario 5.UsageCost                     .00000    
+Funcionario 4.NumberSeized                  21.000    
+Funcionario 4.ScheduledUtilization          1.0000    
+Funcionario 4.BusyCost                      .00000    
+Funcionario 4.IdleCost                      .00000    
+Funcionario 4.UsageCost                     .00000    
+Funcionario 3.NumberSeized                  24.000    
+Funcionario 3.ScheduledUtilization          .96607    
+Funcionario 3.BusyCost                      .00000    
+Funcionario 3.IdleCost                      .00000    
+Funcionario 3.UsageCost                     .00000    
+Funcionario 2.NumberSeized                  23.000    
+Funcionario 2.ScheduledUtilization          .97733    
+Funcionario 2.BusyCost                      .00000    
+Funcionario 2.IdleCost                      .00000    
+Funcionario 2.UsageCost                     .00000    
+Funcionario 1.NumberSeized                  19.000    
+Funcionario 1.ScheduledUtilization          .98044    
+Funcionario 1.BusyCost                      .00000    
+Funcionario 1.IdleCost                      .00000    
+Funcionario 1.UsageCost                     .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            102.00    
+
+Iniciando replicação 8 de 10
+
+                                      ARENA Simulation Results
+                             lucasctruppelm@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 8 de 10
+
+Projeto: Loja 3                                                      Data da execução :11/28/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+
+Replicação terminada no tempo de      : 480.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+cliente.VATime                              .00000     (Insuf)    .00000     .00000        105    
+cliente.NVATime                             .00000     (Insuf)    .00000     .00000        105    
+cliente.WaitTime                            8.8373     (Insuf)    .00000     28.978        105    
+cliente.TranTime                            .00000     (Insuf)    .00000     .00000        105    
+cliente.OtherTime                           20.230     (Insuf)    .00000     45.723        105    
+cliente.TotalTime                           29.067     (Insuf)    .00000     55.039        105    
+cliente.VACost                              .00000     (Insuf)    .00000     .00000        105    
+cliente.NVACost                             .00000     (Insuf)    .00000     .00000        105    
+cliente.WaitCost                            .00000     (Insuf)    .00000     .00000        105    
+cliente.TranCost                            .00000     (Insuf)    .00000     .00000        105    
+cliente.OtherCost                           .00000     (Insuf)    .00000     .00000        105    
+cliente.TotalCost                           .00000     (Insuf)    .00000     .00000        105    
+filaGeral.Queue.WaitingTime                 9.5155     (Insuf)    .00000     28.978        103    
+filaGeral.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000        103    
+filaPreferencial.Queue.WaitingTime          2.2874     (Insuf)    .00000     8.6625          7    
+filaPreferencial.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000          7    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+cliente.WIP                                 6.6039     (Insuf)    .00000     13.000     7.0000    
+Funcionario 5.NumberBusy                    .95831     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 5.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 5.Utilization                   .95831     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberBusy                    .93831     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 4.Utilization                   .93831     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .78605     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 3.Utilization                   .78605     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .88801     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 2.Utilization                   .88801     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberBusy                    .92993     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 1.Utilization                   .92993     (Insuf)    .00000     1.0000     1.0000    
+filaGeral.Queue.NumberInQueue               2.0699     (Insuf)    .00000     7.0000     2.0000    
+filaPreferencial.Queue.NumberInQueue        .03336     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+cliente.NumberIn                            112.00    
+cliente.NumberOut                           105.00    
+Funcionario 5.NumberSeized                  25.000    
+Funcionario 5.ScheduledUtilization          .95831    
+Funcionario 5.BusyCost                      .00000    
+Funcionario 5.IdleCost                      .00000    
+Funcionario 5.UsageCost                     .00000    
+Funcionario 4.NumberSeized                  22.000    
+Funcionario 4.ScheduledUtilization          .93831    
+Funcionario 4.BusyCost                      .00000    
+Funcionario 4.IdleCost                      .00000    
+Funcionario 4.UsageCost                     .00000    
+Funcionario 3.NumberSeized                  17.000    
+Funcionario 3.ScheduledUtilization          .78605    
+Funcionario 3.BusyCost                      .00000    
+Funcionario 3.IdleCost                      .00000    
+Funcionario 3.UsageCost                     .00000    
+Funcionario 2.NumberSeized                  21.000    
+Funcionario 2.ScheduledUtilization          .88801    
+Funcionario 2.BusyCost                      .00000    
+Funcionario 2.IdleCost                      .00000    
+Funcionario 2.UsageCost                     .00000    
+Funcionario 1.NumberSeized                  25.000    
+Funcionario 1.ScheduledUtilization          .92993    
+Funcionario 1.BusyCost                      .00000    
+Funcionario 1.IdleCost                      .00000    
+Funcionario 1.UsageCost                     .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            105.00    
+
+Iniciando replicação 9 de 10
+
+                                      ARENA Simulation Results
+                             lucasctruppelm@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 9 de 10
+
+Projeto: Loja 3                                                      Data da execução :11/28/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+
+Replicação terminada no tempo de      : 480.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+cliente.VATime                              .00000     (Insuf)    .00000     .00000        117    
+cliente.NVATime                             .00000     (Insuf)    .00000     .00000        117    
+cliente.WaitTime                            44.789     (Insuf)    .00000     82.474        117    
+cliente.TranTime                            .00000     (Insuf)    .00000     .00000        117    
+cliente.OtherTime                           19.672     (Insuf)    .00000     47.978        117    
+cliente.TotalTime                           64.462     (Insuf)    .00000     120.73        117    
+cliente.VACost                              .00000     (Insuf)    .00000     .00000        117    
+cliente.NVACost                             .00000     (Insuf)    .00000     .00000        117    
+cliente.WaitCost                            .00000     (Insuf)    .00000     .00000        117    
+cliente.TranCost                            .00000     (Insuf)    .00000     .00000        117    
+cliente.OtherCost                           .00000     (Insuf)    .00000     .00000        117    
+cliente.TotalCost                           .00000     (Insuf)    .00000     .00000        117    
+filaGeral.Queue.WaitingTime                 48.091     (Insuf)    .00000     82.474        116    
+filaGeral.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000        116    
+filaPreferencial.Queue.WaitingTime          4.0995     (Insuf)    .00000     11.705          6    
+filaPreferencial.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000          6    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+cliente.WIP                                 18.214     (Insuf)    .00000     27.000     24.000    
+Funcionario 5.NumberBusy                    .97889     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 5.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 5.Utilization                   .97889     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberBusy                    .99743     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 4.Utilization                   .99743     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .96491     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 3.Utilization                   .96491     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .97838     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 2.Utilization                   .97838     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberBusy                    .97836     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 1.Utilization                   .97836     (Insuf)    .00000     1.0000     1.0000    
+filaGeral.Queue.NumberInQueue               13.265     (Insuf)    .00000     22.000     19.000    
+filaPreferencial.Queue.NumberInQueue        .05124     (Insuf)    .00000     1.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+cliente.NumberIn                            141.00    
+cliente.NumberOut                           117.00    
+Funcionario 5.NumberSeized                  26.000    
+Funcionario 5.ScheduledUtilization          .97889    
+Funcionario 5.BusyCost                      .00000    
+Funcionario 5.IdleCost                      .00000    
+Funcionario 5.UsageCost                     .00000    
+Funcionario 4.NumberSeized                  22.000    
+Funcionario 4.ScheduledUtilization          .99743    
+Funcionario 4.BusyCost                      .00000    
+Funcionario 4.IdleCost                      .00000    
+Funcionario 4.UsageCost                     .00000    
+Funcionario 3.NumberSeized                  23.000    
+Funcionario 3.ScheduledUtilization          .96491    
+Funcionario 3.BusyCost                      .00000    
+Funcionario 3.IdleCost                      .00000    
+Funcionario 3.UsageCost                     .00000    
+Funcionario 2.NumberSeized                  24.000    
+Funcionario 2.ScheduledUtilization          .97838    
+Funcionario 2.BusyCost                      .00000    
+Funcionario 2.IdleCost                      .00000    
+Funcionario 2.UsageCost                     .00000    
+Funcionario 1.NumberSeized                  27.000    
+Funcionario 1.ScheduledUtilization          .97836    
+Funcionario 1.BusyCost                      .00000    
+Funcionario 1.IdleCost                      .00000    
+Funcionario 1.UsageCost                     .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            117.00    
+
+Iniciando replicação 10 de 10
+
+                                      ARENA Simulation Results
+                             lucasctruppelm@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 10 de 10
+
+Projeto: Loja 3                                                      Data da execução :11/28/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+
+Replicação terminada no tempo de      : 480.0 Minutos 
+Unidade de Tempo Base: Minutos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+cliente.VATime                              .00000     (Insuf)    .00000     .00000        112    
+cliente.NVATime                             .00000     (Insuf)    .00000     .00000        112    
+cliente.WaitTime                            14.256     (Insuf)    .00000     32.966        112    
+cliente.TranTime                            .00000     (Insuf)    .00000     .00000        112    
+cliente.OtherTime                           18.999     (Insuf)    .00000     46.271        112    
+cliente.TotalTime                           33.256     (Insuf)    .00000     69.245        112    
+cliente.VACost                              .00000     (Insuf)    .00000     .00000        112    
+cliente.NVACost                             .00000     (Insuf)    .00000     .00000        112    
+cliente.WaitCost                            .00000     (Insuf)    .00000     .00000        112    
+cliente.TranCost                            .00000     (Insuf)    .00000     .00000        112    
+cliente.OtherCost                           .00000     (Insuf)    .00000     .00000        112    
+cliente.TotalCost                           .00000     (Insuf)    .00000     .00000        112    
+filaGeral.Queue.WaitingTime                 14.974     (Insuf)    .00000     32.966        112    
+filaGeral.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000        112    
+filaPreferencial.Queue.WaitingTime          10.388     (Insuf)    .00000     14.633          5    
+filaPreferencial.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000          5    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+cliente.WIP                                 8.3523     (Insuf)    .00000     15.000     10.000    
+Funcionario 5.NumberBusy                    .95910     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 5.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 5.Utilization                   .95910     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberBusy                    .95258     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 4.Utilization                   .95258     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .84860     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 3.Utilization                   .84860     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .90298     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 2.Utilization                   .90298     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberBusy                    .93972     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionario 1.Utilization                   .93972     (Insuf)    .00000     1.0000     1.0000    
+filaGeral.Queue.NumberInQueue               3.6411     (Insuf)    .00000     10.000     5.0000    
+filaPreferencial.Queue.NumberInQueue        .10822     (Insuf)    .00000     2.0000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+cliente.NumberIn                            122.00    
+cliente.NumberOut                           112.00    
+Funcionario 5.NumberSeized                  24.000    
+Funcionario 5.ScheduledUtilization          .95910    
+Funcionario 5.BusyCost                      .00000    
+Funcionario 5.IdleCost                      .00000    
+Funcionario 5.UsageCost                     .00000    
+Funcionario 4.NumberSeized                  22.000    
+Funcionario 4.ScheduledUtilization          .95258    
+Funcionario 4.BusyCost                      .00000    
+Funcionario 4.IdleCost                      .00000    
+Funcionario 4.UsageCost                     .00000    
+Funcionario 3.NumberSeized                  21.000    
+Funcionario 3.ScheduledUtilization          .84860    
+Funcionario 3.BusyCost                      .00000    
+Funcionario 3.IdleCost                      .00000    
+Funcionario 3.UsageCost                     .00000    
+Funcionario 2.NumberSeized                  24.000    
+Funcionario 2.ScheduledUtilization          .90298    
+Funcionario 2.BusyCost                      .00000    
+Funcionario 2.IdleCost                      .00000    
+Funcionario 2.UsageCost                     .00000    
+Funcionario 1.NumberSeized                  26.000    
+Funcionario 1.ScheduledUtilization          .93972    
+Funcionario 1.BusyCost                      .00000    
+Funcionario 1.IdleCost                      .00000    
+Funcionario 1.UsageCost                     .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            112.00    
+
+
+                                      ARENA Simulation Results
+                             lucasctruppelm@gmail.com - License: STUDENT
+
+                              Resumo de resultados para 10 Replicações
+
+Projeto: Loja 3                                                      Data da execução :11/28/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+
+
+                                             RESULTADOS
+
+Identificador                                 Média    Meia-largura Mínima    Maximo # de Replicações
+___________________________________________________________________________________________________
+
+cliente.NumberIn                            118.80     9.3130     91.000     141.00     10
+cliente.NumberOut                           107.00     6.1809     86.000     117.00     10
+Funcionario 5.NumberSeized                  23.000     2.4548     19.000     29.000     10
+Funcionario 5.ScheduledUtilization          .91833     .05674     .72555     .99973     10
+Funcionario 5.BusyCost                      .00000     .00000     .00000     .00000     10
+Funcionario 5.IdleCost                      .00000     .00000     .00000     .00000     10
+Funcionario 5.UsageCost                     .00000     .00000     .00000     .00000     10
+Funcionario 4.NumberSeized                  22.600     .90480     21.000     25.000     10
+Funcionario 4.ScheduledUtilization          .94529     .03462     .83376     1.0000     10
+Funcionario 4.BusyCost                      .00000     .00000     .00000     .00000     10
+Funcionario 4.IdleCost                      .00000     .00000     .00000     .00000     10
+Funcionario 4.UsageCost                     .00000     .00000     .00000     .00000     10
+Funcionario 3.NumberSeized                  20.400     2.3410     15.000     24.000     10
+Funcionario 3.ScheduledUtilization          .82254     .10233     .51126     .96607     10
+Funcionario 3.BusyCost                      .00000     .00000     .00000     .00000     10
+Funcionario 3.IdleCost                      .00000     .00000     .00000     .00000     10
+Funcionario 3.UsageCost                     .00000     .00000     .00000     .00000     10
+Funcionario 2.NumberSeized                  21.900     2.1709     15.000     25.000     10
+Funcionario 2.ScheduledUtilization          .86826     .09101     .56944     .98233     10
+Funcionario 2.BusyCost                      .00000     .00000     .00000     .00000     10
+Funcionario 2.IdleCost                      .00000     .00000     .00000     .00000     10
+Funcionario 2.UsageCost                     .00000     .00000     .00000     .00000     10
+Funcionario 1.NumberSeized                  24.100     2.0909     19.000     27.000     10
+Funcionario 1.ScheduledUtilization          .91084     .04581     .78913     .98044     10
+Funcionario 1.BusyCost                      .00000     .00000     .00000     .00000     10
+Funcionario 1.IdleCost                      .00000     .00000     .00000     .00000     10
+Funcionario 1.UsageCost                     .00000     .00000     .00000     .00000     10
+All Entities.VACost                         .00000     .00000     .00000     .00000     10
+All Entities.NVACost                        .00000     .00000     .00000     .00000     10
+All Entities.WaitCost                       .00000     .00000     .00000     .00000     10
+All Entities.TranCost                       .00000     .00000     .00000     .00000     10
+All Entities.OtherCost                      .00000     .00000     .00000     .00000     10
+All Entities.TotalCost                      .00000     .00000     .00000     .00000     10
+All Resources.BusyCost                      .00000     .00000     .00000     .00000     10
+All Resources.IdleCost                      .00000     .00000     .00000     .00000     10
+All Resources.UsageCost                     .00000     .00000     .00000     .00000     10
+All Resources.TotalCost                     .00000     .00000     .00000     .00000     10
+System.TotalCost                            .00000     .00000     .00000     .00000     10
+System.NumberOut                            107.00     6.1809     86.000     117.00     10
+
+Tempo executando a simulação: 0.07 minutos.
+Simulação completada.

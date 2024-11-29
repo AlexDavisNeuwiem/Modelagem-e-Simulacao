@@ -4,8 +4,8 @@
 
                                   Sumário para Replicação 1 de 10
 
-Projeto: Loja 3                                                      Data da execução :11/28/2024
-Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+Projeto: Loja 3                                                      Data da execução :11/29/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/29/2024
 
 Replicação terminada no tempo de      : 480.0 Minutos 
 Unidade de Tempo Base: Minutos
@@ -15,6 +15,7 @@ Unidade de Tempo Base: Minutos
 Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
 ___________________________________________________________________________________________________
 
+tempo de atendimento de idoso               23.007     (Insuf)    11.125     45.233          6    
 cliente.VATime                              .00000     (Insuf)    .00000     .00000         86    
 cliente.NVATime                             .00000     (Insuf)    .00000     .00000         86    
 cliente.WaitTime                            1.3271     (Insuf)    .00000     10.738         86    
@@ -108,8 +109,8 @@ Iniciando replicação 2 de 10
 
                                   Sumário para Replicação 2 de 10
 
-Projeto: Loja 3                                                      Data da execução :11/28/2024
-Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+Projeto: Loja 3                                                      Data da execução :11/29/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/29/2024
 
 Replicação terminada no tempo de      : 480.0 Minutos 
 Unidade de Tempo Base: Minutos
@@ -119,6 +120,7 @@ Unidade de Tempo Base: Minutos
 Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
 ___________________________________________________________________________________________________
 
+tempo de atendimento de idoso               24.244     (Insuf)    11.262     52.578          9    
 cliente.VATime                              .00000     (Insuf)    .00000     .00000        108    
 cliente.NVATime                             .00000     (Insuf)    .00000     .00000        108    
 cliente.WaitTime                            18.157     (Insuf)    .00000     56.156        108    
@@ -212,8 +214,8 @@ Iniciando replicação 3 de 10
 
                                   Sumário para Replicação 3 de 10
 
-Projeto: Loja 3                                                      Data da execução :11/28/2024
-Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+Projeto: Loja 3                                                      Data da execução :11/29/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/29/2024
 
 Replicação terminada no tempo de      : 480.0 Minutos 
 Unidade de Tempo Base: Minutos
@@ -223,6 +225,7 @@ Unidade de Tempo Base: Minutos
 Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
 ___________________________________________________________________________________________________
 
+tempo de atendimento de idoso               16.974     (Insuf)    6.3358     25.201          8    
 cliente.VATime                              .00000     (Insuf)    .00000     .00000        114    
 cliente.NVATime                             .00000     (Insuf)    .00000     .00000        114    
 cliente.WaitTime                            19.418     (Insuf)    .00000     54.725        114    
@@ -316,8 +319,8 @@ Iniciando replicação 4 de 10
 
                                   Sumário para Replicação 4 de 10
 
-Projeto: Loja 3                                                      Data da execução :11/28/2024
-Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+Projeto: Loja 3                                                      Data da execução :11/29/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/29/2024
 
 Replicação terminada no tempo de      : 480.0 Minutos 
 Unidade de Tempo Base: Minutos
@@ -327,6 +330,7 @@ Unidade de Tempo Base: Minutos
 Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
 ___________________________________________________________________________________________________
 
+tempo de atendimento de idoso               23.805     (Insuf)    12.559     39.900          6    
 cliente.VATime                              .00000     (Insuf)    .00000     .00000        106    
 cliente.NVATime                             .00000     (Insuf)    .00000     .00000        106    
 cliente.WaitTime                            3.8787     (Insuf)    .00000     23.718        106    
@@ -420,8 +424,8 @@ Iniciando replicação 5 de 10
 
                                   Sumário para Replicação 5 de 10
 
-Projeto: Loja 3                                                      Data da execução :11/28/2024
-Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+Projeto: Loja 3                                                      Data da execução :11/29/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/29/2024
 
 Replicação terminada no tempo de      : 480.0 Minutos 
 Unidade de Tempo Base: Minutos
@@ -431,6 +435,7 @@ Unidade de Tempo Base: Minutos
 Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
 ___________________________________________________________________________________________________
 
+tempo de atendimento de idoso               18.869     (Insuf)    6.0136     30.965          6    
 cliente.VATime                              .00000     (Insuf)    .00000     .00000        112    
 cliente.NVATime                             .00000     (Insuf)    .00000     .00000        112    
 cliente.WaitTime                            7.1506     (Insuf)    .00000     25.115        112    
@@ -524,8 +529,8 @@ Iniciando replicação 6 de 10
 
                                   Sumário para Replicação 6 de 10
 
-Projeto: Loja 3                                                      Data da execução :11/28/2024
-Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+Projeto: Loja 3                                                      Data da execução :11/29/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/29/2024
 
 Replicação terminada no tempo de      : 480.0 Minutos 
 Unidade de Tempo Base: Minutos
@@ -535,6 +540,7 @@ Unidade de Tempo Base: Minutos
 Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
 ___________________________________________________________________________________________________
 
+tempo de atendimento de idoso               8.9349     (Insuf)    .39782     20.782          3    
 cliente.VATime                              .00000     (Insuf)    .00000     .00000        108    
 cliente.NVATime                             .00000     (Insuf)    .00000     .00000        108    
 cliente.WaitTime                            4.4206     (Insuf)    .00000     24.915        108    
@@ -628,8 +634,8 @@ Iniciando replicação 7 de 10
 
                                   Sumário para Replicação 7 de 10
 
-Projeto: Loja 3                                                      Data da execução :11/28/2024
-Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+Projeto: Loja 3                                                      Data da execução :11/29/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/29/2024
 
 Replicação terminada no tempo de      : 480.0 Minutos 
 Unidade de Tempo Base: Minutos
@@ -639,6 +645,7 @@ Unidade de Tempo Base: Minutos
 Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
 ___________________________________________________________________________________________________
 
+tempo de atendimento de idoso               24.899     (Insuf)    16.716     32.538          6    
 cliente.VATime                              .00000     (Insuf)    .00000     .00000        102    
 cliente.NVATime                             .00000     (Insuf)    .00000     .00000        102    
 cliente.WaitTime                            34.304     (Insuf)    .00000     81.053        102    
@@ -732,8 +739,8 @@ Iniciando replicação 8 de 10
 
                                   Sumário para Replicação 8 de 10
 
-Projeto: Loja 3                                                      Data da execução :11/28/2024
-Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+Projeto: Loja 3                                                      Data da execução :11/29/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/29/2024
 
 Replicação terminada no tempo de      : 480.0 Minutos 
 Unidade de Tempo Base: Minutos
@@ -743,6 +750,7 @@ Unidade de Tempo Base: Minutos
 Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
 ___________________________________________________________________________________________________
 
+tempo de atendimento de idoso               20.885     (Insuf)    10.977     26.951          6    
 cliente.VATime                              .00000     (Insuf)    .00000     .00000        105    
 cliente.NVATime                             .00000     (Insuf)    .00000     .00000        105    
 cliente.WaitTime                            8.8373     (Insuf)    .00000     28.978        105    
@@ -836,8 +844,8 @@ Iniciando replicação 9 de 10
 
                                   Sumário para Replicação 9 de 10
 
-Projeto: Loja 3                                                      Data da execução :11/28/2024
-Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+Projeto: Loja 3                                                      Data da execução :11/29/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/29/2024
 
 Replicação terminada no tempo de      : 480.0 Minutos 
 Unidade de Tempo Base: Minutos
@@ -847,6 +855,7 @@ Unidade de Tempo Base: Minutos
 Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
 ___________________________________________________________________________________________________
 
+tempo de atendimento de idoso               17.516     (Insuf)    1.1236     29.301          6    
 cliente.VATime                              .00000     (Insuf)    .00000     .00000        117    
 cliente.NVATime                             .00000     (Insuf)    .00000     .00000        117    
 cliente.WaitTime                            44.789     (Insuf)    .00000     82.474        117    
@@ -940,8 +949,8 @@ Iniciando replicação 10 de 10
 
                                   Sumário para Replicação 10 de 10
 
-Projeto: Loja 3                                                      Data da execução :11/28/2024
-Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+Projeto: Loja 3                                                      Data da execução :11/29/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/29/2024
 
 Replicação terminada no tempo de      : 480.0 Minutos 
 Unidade de Tempo Base: Minutos
@@ -951,6 +960,7 @@ Unidade de Tempo Base: Minutos
 Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
 ___________________________________________________________________________________________________
 
+tempo de atendimento de idoso               34.366     (Insuf)    25.816     46.271          5    
 cliente.VATime                              .00000     (Insuf)    .00000     .00000        112    
 cliente.NVATime                             .00000     (Insuf)    .00000     .00000        112    
 cliente.WaitTime                            14.256     (Insuf)    .00000     32.966        112    
@@ -1043,8 +1053,8 @@ System.NumberOut                            112.00
 
                               Resumo de resultados para 10 Replicações
 
-Projeto: Loja 3                                                      Data da execução :11/28/2024
-Analista: Grupo 3                                                     Data de revisão do modelo:11/28/2024
+Projeto: Loja 3                                                      Data da execução :11/29/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:11/29/2024
 
 
                                              RESULTADOS
@@ -1092,5 +1102,5 @@ All Resources.TotalCost                     .00000     .00000     .00000     .00
 System.TotalCost                            .00000     .00000     .00000     .00000     10
 System.NumberOut                            107.00     6.1809     86.000     117.00     10
 
-Tempo executando a simulação: 0.07 minutos.
+Tempo executando a simulação: 0.08 minutos.
 Simulação completada.

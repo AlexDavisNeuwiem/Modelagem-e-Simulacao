@@ -45,15 +45,15 @@ Funcionario 5.Utilization                   .72555     (Insuf)    .00000     1.0
 Funcionario 4.NumberBusy                    .83376     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Funcionario 4.Utilization                   .83376     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 3.NumberBusy                    .51126     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .52968     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 3.Utilization                   .51126     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 2.NumberBusy                    .56944     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.Utilization                   .52968     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .59328     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 2.Utilization                   .56944     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 1.NumberBusy                    .78913     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.Utilization                   .59328     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberBusy                    .74687     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 1.Utilization                   .78913     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.Utilization                   .74687     (Insuf)    .00000     1.0000     1.0000    
 filaGeral.Queue.NumberInQueue               .22719     (Insuf)    .00000     4.0000     .00000    
 filaPreferencial.Queue.NumberInQueue        .01059     (Insuf)    .00000     1.0000     .00000    
 
@@ -75,17 +75,17 @@ Funcionario 4.BusyCost                      .00000
 Funcionario 4.IdleCost                      .00000    
 Funcionario 4.UsageCost                     .00000    
 Funcionario 3.NumberSeized                  15.000    
-Funcionario 3.ScheduledUtilization          .51126    
+Funcionario 3.ScheduledUtilization          .52968    
 Funcionario 3.BusyCost                      .00000    
 Funcionario 3.IdleCost                      .00000    
 Funcionario 3.UsageCost                     .00000    
-Funcionario 2.NumberSeized                  15.000    
-Funcionario 2.ScheduledUtilization          .56944    
+Funcionario 2.NumberSeized                  16.000    
+Funcionario 2.ScheduledUtilization          .59328    
 Funcionario 2.BusyCost                      .00000    
 Funcionario 2.IdleCost                      .00000    
 Funcionario 2.UsageCost                     .00000    
-Funcionario 1.NumberSeized                  19.000    
-Funcionario 1.ScheduledUtilization          .78913    
+Funcionario 1.NumberSeized                  18.000    
+Funcionario 1.ScheduledUtilization          .74687    
 Funcionario 1.BusyCost                      .00000    
 Funcionario 1.IdleCost                      .00000    
 Funcionario 1.UsageCost                     .00000    
@@ -150,15 +150,15 @@ Funcionario 5.Utilization                   .96634     (Insuf)    .00000     1.0
 Funcionario 4.NumberBusy                    .96078     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Funcionario 4.Utilization                   .96078     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 3.NumberBusy                    .96093     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .96096     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 3.Utilization                   .96093     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 2.NumberBusy                    .95021     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.Utilization                   .96096     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .96340     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 2.Utilization                   .95021     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 1.NumberBusy                    .94063     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.Utilization                   .96340     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberBusy                    .92740     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 1.Utilization                   .94063     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.Utilization                   .92740     (Insuf)    .00000     1.0000     1.0000    
 filaGeral.Queue.NumberInQueue               4.2941     (Insuf)    .00000     13.000     4.0000    
 filaPreferencial.Queue.NumberInQueue        .12310     (Insuf)    .00000     2.0000     .00000    
 
@@ -179,18 +179,18 @@ Funcionario 4.ScheduledUtilization          .96078
 Funcionario 4.BusyCost                      .00000    
 Funcionario 4.IdleCost                      .00000    
 Funcionario 4.UsageCost                     .00000    
-Funcionario 3.NumberSeized                  23.000    
-Funcionario 3.ScheduledUtilization          .96093    
+Funcionario 3.NumberSeized                  26.000    
+Funcionario 3.ScheduledUtilization          .96096    
 Funcionario 3.BusyCost                      .00000    
 Funcionario 3.IdleCost                      .00000    
 Funcionario 3.UsageCost                     .00000    
-Funcionario 2.NumberSeized                  24.000    
-Funcionario 2.ScheduledUtilization          .95021    
+Funcionario 2.NumberSeized                  22.000    
+Funcionario 2.ScheduledUtilization          .96340    
 Funcionario 2.BusyCost                      .00000    
 Funcionario 2.IdleCost                      .00000    
 Funcionario 2.UsageCost                     .00000    
-Funcionario 1.NumberSeized                  25.000    
-Funcionario 1.ScheduledUtilization          .94063    
+Funcionario 1.NumberSeized                  24.000    
+Funcionario 1.ScheduledUtilization          .92740    
 Funcionario 1.BusyCost                      .00000    
 Funcionario 1.IdleCost                      .00000    
 Funcionario 1.UsageCost                     .00000    
@@ -255,12 +255,12 @@ Funcionario 5.Utilization                   .93541     (Insuf)    .00000     1.0
 Funcionario 4.NumberBusy                    .96564     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Funcionario 4.Utilization                   .96564     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 3.NumberBusy                    .91665     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .92987     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 3.Utilization                   .91665     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 2.NumberBusy                    .98233     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.Utilization                   .92987     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .96912     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 2.Utilization                   .98233     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.Utilization                   .96912     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 1.NumberBusy                    .96241     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Funcionario 1.Utilization                   .96241     (Insuf)    .00000     1.0000     1.0000    
@@ -284,13 +284,13 @@ Funcionario 4.ScheduledUtilization          .96564
 Funcionario 4.BusyCost                      .00000    
 Funcionario 4.IdleCost                      .00000    
 Funcionario 4.UsageCost                     .00000    
-Funcionario 3.NumberSeized                  23.000    
-Funcionario 3.ScheduledUtilization          .91665    
+Funcionario 3.NumberSeized                  24.000    
+Funcionario 3.ScheduledUtilization          .92987    
 Funcionario 3.BusyCost                      .00000    
 Funcionario 3.IdleCost                      .00000    
 Funcionario 3.UsageCost                     .00000    
-Funcionario 2.NumberSeized                  21.000    
-Funcionario 2.ScheduledUtilization          .98233    
+Funcionario 2.NumberSeized                  20.000    
+Funcionario 2.ScheduledUtilization          .96912    
 Funcionario 2.BusyCost                      .00000    
 Funcionario 2.IdleCost                      .00000    
 Funcionario 2.UsageCost                     .00000    
@@ -360,15 +360,15 @@ Funcionario 5.Utilization                   .89359     (Insuf)    .00000     1.0
 Funcionario 4.NumberBusy                    .96954     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Funcionario 4.Utilization                   .96954     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 3.NumberBusy                    .79857     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .81189     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 3.Utilization                   .79857     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 2.NumberBusy                    .81716     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.Utilization                   .81189     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .80435     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 2.Utilization                   .81716     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 1.NumberBusy                    .83720     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.Utilization                   .80435     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.NumberBusy                    .83668     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 1.Utilization                   .83720     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 1.Utilization                   .83668     (Insuf)    .00000     1.0000     1.0000    
 filaGeral.Queue.NumberInQueue               .92671     (Insuf)    .00000     5.0000     1.0000    
 filaPreferencial.Queue.NumberInQueue        .05231     (Insuf)    .00000     1.0000     .00000    
 
@@ -390,17 +390,17 @@ Funcionario 4.BusyCost                      .00000
 Funcionario 4.IdleCost                      .00000    
 Funcionario 4.UsageCost                     .00000    
 Funcionario 3.NumberSeized                  22.000    
-Funcionario 3.ScheduledUtilization          .79857    
+Funcionario 3.ScheduledUtilization          .81189    
 Funcionario 3.BusyCost                      .00000    
 Funcionario 3.IdleCost                      .00000    
 Funcionario 3.UsageCost                     .00000    
-Funcionario 2.NumberSeized                  19.000    
-Funcionario 2.ScheduledUtilization          .81716    
+Funcionario 2.NumberSeized                  22.000    
+Funcionario 2.ScheduledUtilization          .80435    
 Funcionario 2.BusyCost                      .00000    
 Funcionario 2.IdleCost                      .00000    
 Funcionario 2.UsageCost                     .00000    
-Funcionario 1.NumberSeized                  27.000    
-Funcionario 1.ScheduledUtilization          .83720    
+Funcionario 1.NumberSeized                  24.000    
+Funcionario 1.ScheduledUtilization          .83668    
 Funcionario 1.BusyCost                      .00000    
 Funcionario 1.IdleCost                      .00000    
 Funcionario 1.UsageCost                     .00000    
@@ -465,12 +465,12 @@ Funcionario 5.Utilization                   .89369     (Insuf)    .00000     1.0
 Funcionario 4.NumberBusy                    .92144     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Funcionario 4.Utilization                   .92144     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 3.NumberBusy                    .75758     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .77010     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 3.Utilization                   .75758     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 2.NumberBusy                    .83365     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.Utilization                   .77010     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .82112     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 2.Utilization                   .83365     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.Utilization                   .82112     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 1.NumberBusy                    .87319     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Funcionario 1.Utilization                   .87319     (Insuf)    .00000     1.0000     1.0000    
@@ -494,13 +494,13 @@ Funcionario 4.ScheduledUtilization          .92144
 Funcionario 4.BusyCost                      .00000    
 Funcionario 4.IdleCost                      .00000    
 Funcionario 4.UsageCost                     .00000    
-Funcionario 3.NumberSeized                  16.000    
-Funcionario 3.ScheduledUtilization          .75758    
+Funcionario 3.NumberSeized                  17.000    
+Funcionario 3.ScheduledUtilization          .77010    
 Funcionario 3.BusyCost                      .00000    
 Funcionario 3.IdleCost                      .00000    
 Funcionario 3.UsageCost                     .00000    
-Funcionario 2.NumberSeized                  25.000    
-Funcionario 2.ScheduledUtilization          .83365    
+Funcionario 2.NumberSeized                  24.000    
+Funcionario 2.ScheduledUtilization          .82112    
 Funcionario 2.BusyCost                      .00000    
 Funcionario 2.IdleCost                      .00000    
 Funcionario 2.UsageCost                     .00000    
@@ -885,12 +885,12 @@ Funcionario 5.Utilization                   .97889     (Insuf)    .00000     1.0
 Funcionario 4.NumberBusy                    .99743     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Funcionario 4.Utilization                   .99743     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 3.NumberBusy                    .96491     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .97838     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 3.Utilization                   .96491     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 2.NumberBusy                    .97838     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.Utilization                   .97838     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .96491     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 2.Utilization                   .97838     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.Utilization                   .96491     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 1.NumberBusy                    .97836     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Funcionario 1.Utilization                   .97836     (Insuf)    .00000     1.0000     1.0000    
@@ -914,13 +914,13 @@ Funcionario 4.ScheduledUtilization          .99743
 Funcionario 4.BusyCost                      .00000    
 Funcionario 4.IdleCost                      .00000    
 Funcionario 4.UsageCost                     .00000    
-Funcionario 3.NumberSeized                  23.000    
-Funcionario 3.ScheduledUtilization          .96491    
+Funcionario 3.NumberSeized                  24.000    
+Funcionario 3.ScheduledUtilization          .97838    
 Funcionario 3.BusyCost                      .00000    
 Funcionario 3.IdleCost                      .00000    
 Funcionario 3.UsageCost                     .00000    
-Funcionario 2.NumberSeized                  24.000    
-Funcionario 2.ScheduledUtilization          .97838    
+Funcionario 2.NumberSeized                  23.000    
+Funcionario 2.ScheduledUtilization          .96491    
 Funcionario 2.BusyCost                      .00000    
 Funcionario 2.IdleCost                      .00000    
 Funcionario 2.UsageCost                     .00000    
@@ -990,12 +990,12 @@ Funcionario 5.Utilization                   .95910     (Insuf)    .00000     1.0
 Funcionario 4.NumberBusy                    .95258     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Funcionario 4.Utilization                   .95258     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 3.NumberBusy                    .84860     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.NumberBusy                    .87960     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 3.Utilization                   .84860     (Insuf)    .00000     1.0000     1.0000    
-Funcionario 2.NumberBusy                    .90298     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 3.Utilization                   .87960     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.NumberBusy                    .87197     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Funcionario 2.Utilization                   .90298     (Insuf)    .00000     1.0000     1.0000    
+Funcionario 2.Utilization                   .87197     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 1.NumberBusy                    .93972     (Insuf)    .00000     1.0000     1.0000    
 Funcionario 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Funcionario 1.Utilization                   .93972     (Insuf)    .00000     1.0000     1.0000    
@@ -1019,13 +1019,13 @@ Funcionario 4.ScheduledUtilization          .95258
 Funcionario 4.BusyCost                      .00000    
 Funcionario 4.IdleCost                      .00000    
 Funcionario 4.UsageCost                     .00000    
-Funcionario 3.NumberSeized                  21.000    
-Funcionario 3.ScheduledUtilization          .84860    
+Funcionario 3.NumberSeized                  19.000    
+Funcionario 3.ScheduledUtilization          .87960    
 Funcionario 3.BusyCost                      .00000    
 Funcionario 3.IdleCost                      .00000    
 Funcionario 3.UsageCost                     .00000    
-Funcionario 2.NumberSeized                  24.000    
-Funcionario 2.ScheduledUtilization          .90298    
+Funcionario 2.NumberSeized                  26.000    
+Funcionario 2.ScheduledUtilization          .87197    
 Funcionario 2.BusyCost                      .00000    
 Funcionario 2.IdleCost                      .00000    
 Funcionario 2.UsageCost                     .00000    
@@ -1074,18 +1074,18 @@ Funcionario 4.ScheduledUtilization          .94529     .03462     .83376     1.0
 Funcionario 4.BusyCost                      .00000     .00000     .00000     .00000     10
 Funcionario 4.IdleCost                      .00000     .00000     .00000     .00000     10
 Funcionario 4.UsageCost                     .00000     .00000     .00000     .00000     10
-Funcionario 3.NumberSeized                  20.400     2.3410     15.000     24.000     10
-Funcionario 3.ScheduledUtilization          .82254     .10233     .51126     .96607     10
+Funcionario 3.NumberSeized                  20.800     2.6721     15.000     26.000     10
+Funcionario 3.ScheduledUtilization          .83274     .10098     .52968     .97838     10
 Funcionario 3.BusyCost                      .00000     .00000     .00000     .00000     10
 Funcionario 3.IdleCost                      .00000     .00000     .00000     .00000     10
 Funcionario 3.UsageCost                     .00000     .00000     .00000     .00000     10
-Funcionario 2.NumberSeized                  21.900     2.1709     15.000     25.000     10
-Funcionario 2.ScheduledUtilization          .86826     .09101     .56944     .98233     10
+Funcionario 2.NumberSeized                  22.000     1.9074     16.000     26.000     10
+Funcionario 2.ScheduledUtilization          .86366     .08591     .59328     .97733     10
 Funcionario 2.BusyCost                      .00000     .00000     .00000     .00000     10
 Funcionario 2.IdleCost                      .00000     .00000     .00000     .00000     10
 Funcionario 2.UsageCost                     .00000     .00000     .00000     .00000     10
-Funcionario 1.NumberSeized                  24.100     2.0909     19.000     27.000     10
-Funcionario 1.ScheduledUtilization          .91084     .04581     .78913     .98044     10
+Funcionario 1.NumberSeized                  23.600     2.0841     18.000     27.000     10
+Funcionario 1.ScheduledUtilization          .90524     .05232     .74687     .98044     10
 Funcionario 1.BusyCost                      .00000     .00000     .00000     .00000     10
 Funcionario 1.IdleCost                      .00000     .00000     .00000     .00000     10
 Funcionario 1.UsageCost                     .00000     .00000     .00000     .00000     10

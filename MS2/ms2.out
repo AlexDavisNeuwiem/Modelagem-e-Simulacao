@@ -7,7 +7,7 @@
 Projeto: MS2                                                         Data da execução :12/ 5/2024
 Analista: Grupo 3                                                     Data de revisão do modelo:12/ 5/2024
 
-Replicação terminada no tempo de      : 0.0 Segundos 
+Replicação terminada no tempo de      : 3600.0 Segundos 
 Unidade de Tempo Base: Segundos
 
                                            VARIÁVEIS DE REGISTRO
@@ -15,32 +15,32 @@ Unidade de Tempo Base: Segundos
 Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
 ___________________________________________________________________________________________________
 
-Requisicao.VATime                               --         --         --         --          0
-Requisicao.NVATime                              --         --         --         --          0
-Requisicao.WaitTime                             --         --         --         --          0
-Requisicao.TranTime                             --         --         --         --          0
-Requisicao.OtherTime                            --         --         --         --          0
-Requisicao.TotalTime                            --         --         --         --          0
-Utiliza o disco A.Queue.WaitingTime             --         --         --         --          0
-Fila de espera.Queue.WaitingTime                --         --         --         --          0
-Utiliza disco B.Queue.WaitingTime               --         --         --         --          0
+Requisicao.VATime                           .00000     .00000     .00000     .00000      18000    
+Requisicao.NVATime                          .00000     .00000     .00000     .00000      18000    
+Requisicao.WaitTime                          2.8989E-5  2.8739E-5 .00000     .21722      18000    
+Requisicao.TranTime                         .00000     .00000     .00000     .00000      18000    
+Requisicao.OtherTime                        .08028      4.6803E-4 .05572     .48907      18000    
+Requisicao.TotalTime                        .08031      4.8407E-4 .05572     .48907      18000    
+Utiliza o disco A.Queue.WaitingTime          1.4794E-4  1.4801E-4 .00000     .21722       3527    
+Fila de espera.Queue.WaitingTime            .00000     .00000     .00000     .00000      81002    
+Utiliza disco B.Queue.WaitingTime           .00000     .00000     .00000     .00000      14473    
 
                                      VARIÁVEIS DISCRETAS
 
 Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
 ___________________________________________________________________________________________________
 
-Requisicao.WIP                              .00000     (Insuf)    .00000     .00000     .00000    
-Disco A.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
-Disco A.NumberScheduled                     .00000     (Insuf)    1.0000     1.0000     1.0000    
-Disco A.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
-Disco B.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
-Disco B.NumberScheduled                     .00000     (Insuf)    1.0000     1.0000     1.0000    
-Disco B.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
-CPU.NumberBusy                              .00000     (Insuf)    .00000     .00000     .00000    
-CPU.NumberScheduled                         .00000     (Insuf)    1.0000     1.0000     1.0000    
-CPU.Utilization                             .00000     (Insuf)    .00000     .00000     .00000    
-Utiliza o disco A.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Requisicao.WIP                              .40154     .00221     .00000     3.0000     1.0000    
+Disco A.NumberBusy                          .04407     .00214     .00000     1.0000     .00000    
+Disco A.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Disco A.Utilization                         .04407     .00214     .00000     1.0000     .00000    
+Disco B.NumberBusy                          .03235      7.0882E-4 .00000     1.0000     .00000    
+Disco B.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Disco B.Utilization                         .03235      7.0882E-4 .00000     1.0000     .00000    
+CPU.NumberBusy                              .32498      5.3865E-4 .00000     1.0000     1.0000    
+CPU.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+CPU.Utilization                             .32498      5.3865E-4 .00000     1.0000     1.0000    
+Utiliza o disco A.Queue.NumberInQueue        1.4494E-4 (Insuf)    .00000     1.0000     .00000    
 Fila de espera.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
 Utiliza disco B.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
 
@@ -49,16 +49,16 @@ Utiliza disco B.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00
 Identificador                                   Valor
 _____________________________________________________________
 
-Requisicao.NumberIn                         .00000    
-Requisicao.NumberOut                        .00000    
-Disco A.NumberSeized                        .00000    
-Disco A.ScheduledUtilization                .00000    
-Disco B.NumberSeized                        .00000    
-Disco B.ScheduledUtilization                .00000    
-CPU.NumberSeized                            .00000    
-CPU.ScheduledUtilization                    .00000    
-System.NumberOut                            .00000    
+Requisicao.NumberIn                         18001.    
+Requisicao.NumberOut                        18000.    
+Disco A.NumberSeized                        3527.0    
+Disco A.ScheduledUtilization                .04407    
+Disco B.NumberSeized                        14473.    
+Disco B.ScheduledUtilization                .03235    
+CPU.NumberSeized                            81002.    
+CPU.ScheduledUtilization                    .32498    
+System.NumberOut                            18000.    
 
 
-Tempo executando a simulação: 0.02 minutos.
+Tempo executando a simulação: 5.03 minutos.
 Simulação completada.

@@ -1,0 +1,64 @@
+
+                                      ARENA Simulation Results
+                             lucasctruppelm@gmail.com - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: MS2                                                         Data da execução :12/ 5/2024
+Analista: Grupo 3                                                     Data de revisão do modelo:12/ 5/2024
+
+Replicação terminada no tempo de      : 0.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Requisicao.VATime                               --         --         --         --          0
+Requisicao.NVATime                              --         --         --         --          0
+Requisicao.WaitTime                             --         --         --         --          0
+Requisicao.TranTime                             --         --         --         --          0
+Requisicao.OtherTime                            --         --         --         --          0
+Requisicao.TotalTime                            --         --         --         --          0
+Utiliza o disco A.Queue.WaitingTime             --         --         --         --          0
+Fila de espera.Queue.WaitingTime                --         --         --         --          0
+Utiliza disco B.Queue.WaitingTime               --         --         --         --          0
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+Requisicao.WIP                              .00000     (Insuf)    .00000     .00000     .00000    
+Disco A.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
+Disco A.NumberScheduled                     .00000     (Insuf)    1.0000     1.0000     1.0000    
+Disco A.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
+Disco B.NumberBusy                          .00000     (Insuf)    .00000     .00000     .00000    
+Disco B.NumberScheduled                     .00000     (Insuf)    1.0000     1.0000     1.0000    
+Disco B.Utilization                         .00000     (Insuf)    .00000     .00000     .00000    
+CPU.NumberBusy                              .00000     (Insuf)    .00000     .00000     .00000    
+CPU.NumberScheduled                         .00000     (Insuf)    1.0000     1.0000     1.0000    
+CPU.Utilization                             .00000     (Insuf)    .00000     .00000     .00000    
+Utiliza o disco A.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Fila de espera.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Utiliza disco B.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+Requisicao.NumberIn                         .00000    
+Requisicao.NumberOut                        .00000    
+Disco A.NumberSeized                        .00000    
+Disco A.ScheduledUtilization                .00000    
+Disco B.NumberSeized                        .00000    
+Disco B.ScheduledUtilization                .00000    
+CPU.NumberSeized                            .00000    
+CPU.ScheduledUtilization                    .00000    
+System.NumberOut                            .00000    
+
+
+Tempo executando a simulação: 0.02 minutos.
+Simulação completada.

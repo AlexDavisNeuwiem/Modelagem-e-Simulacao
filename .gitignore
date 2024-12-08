@@ -5,7 +5,6 @@
 *.dsn
 *.html
 *.opw
-*.out
 *.p
 
 # VS Code folder

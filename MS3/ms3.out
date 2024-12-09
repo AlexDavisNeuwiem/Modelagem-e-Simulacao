@@ -1,55 +1,13 @@
 
-0.0 Segundos>
-0.0 Segundos>
-0.0 Segundos>
-0.0 Segundos>
-0.0 Segundos>
-0.0 Segundos>Controlador de execução do SIMAN.
-
-0.001 Segundos>
-0.001 Segundos>
-0.001 Segundos>
-0.001 Segundos>
-0.001 Segundos>Controlador de execução do SIMAN.
-
-0.0012996693 Segundos>
-0.0012996693 Segundos>
-0.0012996693 Segundos>
-0.0012996693 Segundos>
-0.0012996693 Segundos>
-0.0012996693 Segundos>Controlador de execução do SIMAN.
-
-0.0022996693 Segundos>
-0.0022996693 Segundos>
-0.0022996693 Segundos>
-0.0022996693 Segundos>
-0.0022996693 Segundos>Controlador de execução do SIMAN.
-
-0.0025993386 Segundos>
-0.0025993386 Segundos>
-0.0025993386 Segundos>
-0.0025993386 Segundos>
-0.0025993386 Segundos>
-0.0025993386 Segundos>Controlador de execução do SIMAN.
-
-0.0035993386 Segundos>
-0.0035993386 Segundos>
-0.0035993386 Segundos>
-0.0035993386 Segundos>
-0.0035993386 Segundos>Controlador de execução do SIMAN.
-
-0.0038990079 Segundos>
-0.0038990079 Segundos>
-0.0038990079 Segundos>
                                       ARENA Simulation Results
                          alex.davis.neuwiem@grad.ufsc.br - License: STUDENT
 
                                   Sumário para Replicação 1 de 10
 
-Projeto: MS3                                                         Data da execução :12/ 8/2024
-Analista: alex.davis.neuwiem@grad.ufsc.br                             Data de revisão do modelo:12/ 8/2024
+Projeto: MS3                                                         Data da execução :12/ 9/2024
+Analista: alex.davis.neuwiem@grad.ufsc.br                             Data de revisão do modelo:12/ 9/2024
 
-Replicação terminada no tempo de      : 0.0038990079 Segundos 
+Replicação terminada no tempo de      : 600.0 Segundos 
 Unidade de Tempo Base: Segundos
 
                                            VARIÁVEIS DE REGISTRO
@@ -57,71 +15,73 @@ Unidade de Tempo Base: Segundos
 Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
 ___________________________________________________________________________________________________
 
-mensagem.VATime                                 --         --         --         --          0
-mensagem.NVATime                                --         --         --         --          0
-mensagem.WaitTime                               --         --         --         --          0
-mensagem.TranTime                               --         --         --         --          0
-mensagem.OtherTime                              --         --         --         --          0
-mensagem.TotalTime                              --         --         --         --          0
-Mensagem utiliza o barramento.Queue.Waitin  .00000     (Insuf)    .00000     .00000          3    
-Mensagem eh processada.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000          3    
-Repassa o token.Queue.WaitingTime               --         --         --         --          0
+Tempo ate receber resposta                  .01099      1.4912E-4 .00904     .01597        600    
+Tempo de espera para transmitir mensagem    1.9966     (Insuf)    .99323     8.9999        300    
+mensagem.VATime                             .01099      1.4911E-4 .00904     .01597        600    
+mensagem.NVATime                            .00000     .00000     .00000     .00000        600    
+mensagem.WaitTime                           .00000     .00000     .00000     .00000        600    
+mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
+mensagem.OtherTime                          .00000     .00000     .00000     .00000        600    
+mensagem.TotalTime                          .01099      1.4911E-4 .00904     .01597        600    
+Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       4800    
+Mensagem eh processada.Queue.WaitingTime    .00000     .00000     .00000     .00000       5401    
+Repassa o token.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        301    
 
                                      VARIÁVEIS DISCRETAS
 
 Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
 ___________________________________________________________________________________________________
 
-possui_token Value                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
-mensagem.WIP                                1.0000     (Insuf)    .00000     1.0000     1.0000    
-Maquina 1.NumberBusy                        .25648     (Insuf)    .00000     1.0000     .00000    
-Maquina 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Maquina 1.Utilization                       .25648     (Insuf)    .00000     1.0000     .00000    
-Maquina 3.NumberBusy                        .25648     (Insuf)    .00000     1.0000     .00000    
-Maquina 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Maquina 3.Utilization                       .25648     (Insuf)    .00000     1.0000     .00000    
-Maquina 2.NumberBusy                        .25648     (Insuf)    .00000     1.0000     .00000    
-Maquina 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Maquina 2.Utilization                       .25648     (Insuf)    .00000     1.0000     .00000    
-Maquina 5.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
-Maquina 5.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Maquina 5.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
-Maquina 4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
-Maquina 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Maquina 4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
-Maquina 7.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
-Maquina 7.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Maquina 7.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
-Maquina 6.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
-Maquina 6.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Maquina 6.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
-Maquina 8.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
-Maquina 8.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Maquina 8.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
-barramento 8.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+possui_token Value                          4.5064     (Insuf)    1.0000     8.0000     6.0000    
+mensagem.WIP                                .01099      1.4911E-4 .00000     1.0000     1.0000    
+maquina 1.NumberBusy                        .00111      2.2005E-5 .00000     1.0000     .00000    
+maquina 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 1.Utilization                       .00111      2.2005E-5 .00000     1.0000     .00000    
+maquina 3.NumberBusy                        .00111      3.0661E-5 .00000     1.0000     .00000    
+maquina 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 3.Utilization                       .00111      3.0661E-5 .00000     1.0000     .00000    
+maquina 2.NumberBusy                        .00115      3.5701E-5 .00000     1.0000     .00000    
+maquina 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 2.Utilization                       .00115      3.5701E-5 .00000     1.0000     .00000    
+maquina 5.NumberBusy                        .00113     (Corr)     .00000     1.0000     .00000    
+maquina 5.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 5.Utilization                       .00113     (Corr)     .00000     1.0000     .00000    
+maquina 4.NumberBusy                        .00111      2.6987E-5 .00000     1.0000     .00000    
+maquina 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 4.Utilization                       .00111      2.6987E-5 .00000     1.0000     .00000    
+maquina 7.NumberBusy                        .00114      3.1299E-5 .00000     1.0000     .00000    
+maquina 7.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 7.Utilization                       .00114      3.1299E-5 .00000     1.0000     .00000    
+maquina 6.NumberBusy                        .00111      3.0918E-5 .00000     1.0000     1.0000    
+maquina 6.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 6.Utilization                       .00111      3.0918E-5 .00000     1.0000     1.0000    
+maquina 8.NumberBusy                        .00112      2.6581E-5 .00000     1.0000     .00000    
+maquina 8.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 8.Utilization                       .00112      2.6581E-5 .00000     1.0000     .00000    
+barramento 8.NumberBusy                      2.5639E-4  3.0006E-5 .00000     1.0000     .00000    
 barramento 8.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
-barramento 8.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
-barramento 7.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+barramento 8.Utilization                     2.5639E-4  3.0006E-5 .00000     1.0000     .00000    
+barramento 7.NumberBusy                      2.3537E-4  2.6393E-5 .00000     1.0000     .00000    
 barramento 7.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
-barramento 7.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
-barramento 6.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+barramento 7.Utilization                     2.3537E-4  2.6393E-5 .00000     1.0000     .00000    
+barramento 6.NumberBusy                      2.2894E-4  3.0784E-5 .00000     1.0000     .00000    
 barramento 6.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
-barramento 6.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
-barramento 5.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+barramento 6.Utilization                     2.2894E-4  3.0784E-5 .00000     1.0000     .00000    
+barramento 5.NumberBusy                      2.2557E-4  3.1517E-5 .00000     1.0000     .00000    
 barramento 5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
-barramento 5.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
-barramento 4.NumberBusy                     .00000     (Insuf)    .00000     .00000     .00000    
+barramento 5.Utilization                     2.2557E-4  3.1517E-5 .00000     1.0000     .00000    
+barramento 4.NumberBusy                      2.3201E-4  2.9561E-5 .00000     1.0000     .00000    
 barramento 4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
-barramento 4.Utilization                    .00000     (Insuf)    .00000     .00000     .00000    
-barramento 3.NumberBusy                     .07686     (Insuf)    .00000     1.0000     .00000    
+barramento 4.Utilization                     2.3201E-4  2.9561E-5 .00000     1.0000     .00000    
+barramento 3.NumberBusy                      2.4766E-4  2.8301E-5 .00000     1.0000     .00000    
 barramento 3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
-barramento 3.Utilization                    .07686     (Insuf)    .00000     1.0000     .00000    
-barramento 2.NumberBusy                     .07686     (Insuf)    .00000     1.0000     .00000    
+barramento 3.Utilization                     2.4766E-4  2.8301E-5 .00000     1.0000     .00000    
+barramento 2.NumberBusy                      2.8410E-4  3.1567E-5 .00000     1.0000     .00000    
 barramento 2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
-barramento 2.Utilization                    .07686     (Insuf)    .00000     1.0000     .00000    
-barramento 1.NumberBusy                     .07686     (Insuf)    .00000     1.0000     .00000    
+barramento 2.Utilization                     2.8410E-4  3.1567E-5 .00000     1.0000     .00000    
+barramento 1.NumberBusy                      2.7593E-4  3.2348E-5 .00000     1.0000     .00000    
 barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
-barramento 1.Utilization                    .07686     (Insuf)    .00000     1.0000     .00000    
+barramento 1.Utilization                     2.7593E-4  3.2348E-5 .00000     1.0000     .00000    
 Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem eh processada.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
 Repassa o token.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
@@ -131,46 +91,1332 @@ Repassa o token.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00
 Identificador                                    Limite Contagem
 _____________________________________________________________
 
-Mensagens respondidas                             0  Infinite
+Respostas recebidas                             600  Infinite
 
                                              RESULTADOS
 
 Identificador                                   Valor
 _____________________________________________________________
 
-mensagem.NumberIn                           1.0000    
-mensagem.NumberOut                          .00000    
-Maquina 1.NumberSeized                      1.0000    
-Maquina 1.ScheduledUtilization              .25648    
-Maquina 3.NumberSeized                      1.0000    
-Maquina 3.ScheduledUtilization              .25648    
-Maquina 2.NumberSeized                      1.0000    
-Maquina 2.ScheduledUtilization              .25648    
-Maquina 5.NumberSeized                      .00000    
-Maquina 5.ScheduledUtilization              .00000    
-Maquina 4.NumberSeized                      .00000    
-Maquina 4.ScheduledUtilization              .00000    
-Maquina 7.NumberSeized                      .00000    
-Maquina 7.ScheduledUtilization              .00000    
-Maquina 6.NumberSeized                      .00000    
-Maquina 6.ScheduledUtilization              .00000    
-Maquina 8.NumberSeized                      .00000    
-Maquina 8.ScheduledUtilization              .00000    
-barramento 8.NumberSeized                   .00000    
-barramento 8.ScheduledUtilization           .00000    
-barramento 7.NumberSeized                   .00000    
-barramento 7.ScheduledUtilization           .00000    
-barramento 6.NumberSeized                   .00000    
-barramento 6.ScheduledUtilization           .00000    
-barramento 5.NumberSeized                   .00000    
-barramento 5.ScheduledUtilization           .00000    
-barramento 4.NumberSeized                   .00000    
-barramento 4.ScheduledUtilization           .00000    
-barramento 3.NumberSeized                   1.0000    
-barramento 3.ScheduledUtilization           .07686    
-barramento 2.NumberSeized                   1.0000    
-barramento 2.ScheduledUtilization           .07686    
-barramento 1.NumberSeized                   1.0000    
-barramento 1.ScheduledUtilization           .07686    
-System.NumberOut                            .00000    
+mensagem.NumberIn                           601.00    
+mensagem.NumberOut                          600.00    
+maquina 1.NumberSeized                      669.00    
+maquina 1.ScheduledUtilization              .00111    
+maquina 3.NumberSeized                      669.00    
+maquina 3.ScheduledUtilization              .00111    
+maquina 2.NumberSeized                      689.00    
+maquina 2.ScheduledUtilization              .00115    
+maquina 5.NumberSeized                      681.00    
+maquina 5.ScheduledUtilization              .00113    
+maquina 4.NumberSeized                      669.00    
+maquina 4.ScheduledUtilization              .00111    
+maquina 7.NumberSeized                      682.00    
+maquina 7.ScheduledUtilization              .00114    
+maquina 6.NumberSeized                      670.00    
+maquina 6.ScheduledUtilization              .00111    
+maquina 8.NumberSeized                      672.00    
+maquina 8.ScheduledUtilization              .00112    
+barramento 8.NumberSeized                   637.00    
+barramento 8.ScheduledUtilization            2.5639E-4
+barramento 7.NumberSeized                   637.00    
+barramento 7.ScheduledUtilization            2.3537E-4
+barramento 6.NumberSeized                   637.00    
+barramento 6.ScheduledUtilization            2.2894E-4
+barramento 5.NumberSeized                   638.00    
+barramento 5.ScheduledUtilization            2.2557E-4
+barramento 4.NumberSeized                   638.00    
+barramento 4.ScheduledUtilization            2.3201E-4
+barramento 3.NumberSeized                   638.00    
+barramento 3.ScheduledUtilization            2.4766E-4
+barramento 2.NumberSeized                   638.00    
+barramento 2.ScheduledUtilization            2.8410E-4
+barramento 1.NumberSeized                   638.00    
+barramento 1.ScheduledUtilization            2.7593E-4
+System.NumberOut                            600.00    
 
+Iniciando replicação 2 de 10
+
+                                      ARENA Simulation Results
+                         alex.davis.neuwiem@grad.ufsc.br - License: STUDENT
+
+                                  Sumário para Replicação 2 de 10
+
+Projeto: MS3                                                         Data da execução :12/ 9/2024
+Analista: alex.davis.neuwiem@grad.ufsc.br                             Data de revisão do modelo:12/ 9/2024
+
+Replicação terminada no tempo de      : 600.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Tempo ate receber resposta                  .01099      1.4738E-4 .00902     .01597        600    
+Tempo de espera para transmitir mensagem    2.0481     (Insuf)    .99417     11.000        291    
+mensagem.VATime                             .01099      1.4739E-4 .00902     .01597        600    
+mensagem.NVATime                            .00000     .00000     .00000     .00000        600    
+mensagem.WaitTime                           .00000     .00000     .00000     .00000        600    
+mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
+mensagem.OtherTime                          .00000     .00000     .00000     .00000        600    
+mensagem.TotalTime                          .01099      1.4739E-4 .00902     .01597        600    
+Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       4800    
+Mensagem eh processada.Queue.WaitingTime    .00000     .00000     .00000     .00000       5401    
+Repassa o token.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        292    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+possui_token Value                          4.4717     (Insuf)    1.0000     8.0000     5.0000    
+mensagem.WIP                                .01099      1.4739E-4 .00000     1.0000     1.0000    
+maquina 1.NumberBusy                        .00113      2.9621E-5 .00000     1.0000     .00000    
+maquina 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 1.Utilization                       .00113      2.9621E-5 .00000     1.0000     .00000    
+maquina 3.NumberBusy                        .00111      3.1014E-5 .00000     1.0000     .00000    
+maquina 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 3.Utilization                       .00111      3.1014E-5 .00000     1.0000     .00000    
+maquina 2.NumberBusy                        .00113      4.1906E-5 .00000     1.0000     .00000    
+maquina 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 2.Utilization                       .00113      4.1906E-5 .00000     1.0000     .00000    
+maquina 5.NumberBusy                        .00113      2.9799E-5 .00000     1.0000     1.0000    
+maquina 5.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 5.Utilization                       .00113      2.9799E-5 .00000     1.0000     1.0000    
+maquina 4.NumberBusy                        .00114      3.1572E-5 .00000     1.0000     .00000    
+maquina 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 4.Utilization                       .00114      3.1572E-5 .00000     1.0000     .00000    
+maquina 7.NumberBusy                        .00114      3.2822E-5 .00000     1.0000     .00000    
+maquina 7.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 7.Utilization                       .00114      3.2822E-5 .00000     1.0000     .00000    
+maquina 6.NumberBusy                        .00111      2.3512E-5 .00000     1.0000     .00000    
+maquina 6.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 6.Utilization                       .00111      2.3512E-5 .00000     1.0000     .00000    
+maquina 8.NumberBusy                        .00112      3.0205E-5 .00000     1.0000     .00000    
+maquina 8.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 8.Utilization                       .00112      3.0205E-5 .00000     1.0000     .00000    
+barramento 8.NumberBusy                      2.4651E-4  3.3048E-5 .00000     1.0000     .00000    
+barramento 8.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 8.Utilization                     2.4651E-4  3.3048E-5 .00000     1.0000     .00000    
+barramento 7.NumberBusy                      2.1188E-4  2.7187E-5 .00000     1.0000     .00000    
+barramento 7.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 7.Utilization                     2.1188E-4  2.7187E-5 .00000     1.0000     .00000    
+barramento 6.NumberBusy                      2.1619E-4  2.4505E-5 .00000     1.0000     .00000    
+barramento 6.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 6.Utilization                     2.1619E-4  2.4505E-5 .00000     1.0000     .00000    
+barramento 5.NumberBusy                      2.3357E-4  2.4658E-5 .00000     1.0000     .00000    
+barramento 5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 5.Utilization                     2.3357E-4  2.4658E-5 .00000     1.0000     .00000    
+barramento 4.NumberBusy                      2.5363E-4  2.9279E-5 .00000     1.0000     .00000    
+barramento 4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 4.Utilization                     2.5363E-4  2.9279E-5 .00000     1.0000     .00000    
+barramento 3.NumberBusy                      2.6660E-4  2.8520E-5 .00000     1.0000     .00000    
+barramento 3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 3.Utilization                     2.6660E-4  2.8520E-5 .00000     1.0000     .00000    
+barramento 2.NumberBusy                      2.8226E-4  3.4928E-5 .00000     1.0000     .00000    
+barramento 2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 2.Utilization                     2.8226E-4  3.4928E-5 .00000     1.0000     .00000    
+barramento 1.NumberBusy                      2.8098E-4  3.0545E-5 .00000     1.0000     .00000    
+barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 1.Utilization                     2.8098E-4  3.0545E-5 .00000     1.0000     .00000    
+Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
+Mensagem eh processada.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Repassa o token.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             CONTADORES
+
+Identificador                                    Limite Contagem
+_____________________________________________________________
+
+Respostas recebidas                             600  Infinite
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+mensagem.NumberIn                           601.00    
+mensagem.NumberOut                          600.00    
+maquina 1.NumberSeized                      678.00    
+maquina 1.ScheduledUtilization              .00113    
+maquina 3.NumberSeized                      668.00    
+maquina 3.ScheduledUtilization              .00111    
+maquina 2.NumberSeized                      677.00    
+maquina 2.ScheduledUtilization              .00113    
+maquina 5.NumberSeized                      678.00    
+maquina 5.ScheduledUtilization              .00113    
+maquina 4.NumberSeized                      683.00    
+maquina 4.ScheduledUtilization              .00114    
+maquina 7.NumberSeized                      682.00    
+maquina 7.ScheduledUtilization              .00114    
+maquina 6.NumberSeized                      664.00    
+maquina 6.ScheduledUtilization              .00111    
+maquina 8.NumberSeized                      671.00    
+maquina 8.ScheduledUtilization              .00112    
+barramento 8.NumberSeized                   636.00    
+barramento 8.ScheduledUtilization            2.4651E-4
+barramento 7.NumberSeized                   636.00    
+barramento 7.ScheduledUtilization            2.1188E-4
+barramento 6.NumberSeized                   636.00    
+barramento 6.ScheduledUtilization            2.1619E-4
+barramento 5.NumberSeized                   636.00    
+barramento 5.ScheduledUtilization            2.3357E-4
+barramento 4.NumberSeized                   637.00    
+barramento 4.ScheduledUtilization            2.5363E-4
+barramento 3.NumberSeized                   637.00    
+barramento 3.ScheduledUtilization            2.6660E-4
+barramento 2.NumberSeized                   637.00    
+barramento 2.ScheduledUtilization            2.8226E-4
+barramento 1.NumberSeized                   637.00    
+barramento 1.ScheduledUtilization            2.8098E-4
+System.NumberOut                            600.00    
+
+Iniciando replicação 3 de 10
+
+                                      ARENA Simulation Results
+                         alex.davis.neuwiem@grad.ufsc.br - License: STUDENT
+
+                                  Sumário para Replicação 3 de 10
+
+Projeto: MS3                                                         Data da execução :12/ 9/2024
+Analista: alex.davis.neuwiem@grad.ufsc.br                             Data de revisão do modelo:12/ 9/2024
+
+Replicação terminada no tempo de      : 600.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Tempo ate receber resposta                  .01098      1.5462E-4 .00903     .01587        600    
+Tempo de espera para transmitir mensagem    1.9198     (Insuf)    .99380     7.9959        312    
+mensagem.VATime                             .01098      1.5462E-4 .00903     .01587        600    
+mensagem.NVATime                            .00000     .00000     .00000     .00000        600    
+mensagem.WaitTime                           .00000     .00000     .00000     .00000        600    
+mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
+mensagem.OtherTime                          .00000     .00000     .00000     .00000        600    
+mensagem.TotalTime                          .01098      1.5462E-4 .00903     .01587        600    
+Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       4800    
+Mensagem eh processada.Queue.WaitingTime    .00000     .00000     .00000     .00000       5401    
+Repassa o token.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        313    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+possui_token Value                          4.3483     (Insuf)    1.0000     8.0000     2.0000    
+mensagem.WIP                                .01098      1.5462E-4 .00000     1.0000     1.0000    
+maquina 1.NumberBusy                        .00114      3.5912E-5 .00000     1.0000     .00000    
+maquina 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 1.Utilization                       .00114      3.5912E-5 .00000     1.0000     .00000    
+maquina 3.NumberBusy                        .00113      2.6531E-5 .00000     1.0000     .00000    
+maquina 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 3.Utilization                       .00113      2.6531E-5 .00000     1.0000     .00000    
+maquina 2.NumberBusy                        .00112      3.2772E-5 .00000     1.0000     1.0000    
+maquina 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 2.Utilization                       .00112      3.2772E-5 .00000     1.0000     1.0000    
+maquina 5.NumberBusy                        .00114      3.6378E-5 .00000     1.0000     .00000    
+maquina 5.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 5.Utilization                       .00114      3.6378E-5 .00000     1.0000     .00000    
+maquina 4.NumberBusy                        .00112      1.9994E-5 .00000     1.0000     .00000    
+maquina 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 4.Utilization                       .00112      1.9994E-5 .00000     1.0000     .00000    
+maquina 7.NumberBusy                        .00113      2.7484E-5 .00000     1.0000     .00000    
+maquina 7.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 7.Utilization                       .00113      2.7484E-5 .00000     1.0000     .00000    
+maquina 6.NumberBusy                        .00110      2.2125E-5 .00000     1.0000     .00000    
+maquina 6.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 6.Utilization                       .00110      2.2125E-5 .00000     1.0000     .00000    
+maquina 8.NumberBusy                        .00110      1.9978E-5 .00000     1.0000     .00000    
+maquina 8.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 8.Utilization                       .00110      1.9978E-5 .00000     1.0000     .00000    
+barramento 8.NumberBusy                      2.4005E-4  2.5202E-5 .00000     1.0000     .00000    
+barramento 8.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 8.Utilization                     2.4005E-4  2.5202E-5 .00000     1.0000     .00000    
+barramento 7.NumberBusy                      2.2767E-4  2.9475E-5 .00000     1.0000     .00000    
+barramento 7.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 7.Utilization                     2.2767E-4  2.9475E-5 .00000     1.0000     .00000    
+barramento 6.NumberBusy                      2.2784E-4  2.8037E-5 .00000     1.0000     .00000    
+barramento 6.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 6.Utilization                     2.2784E-4  2.8037E-5 .00000     1.0000     .00000    
+barramento 5.NumberBusy                      2.3853E-4  2.9014E-5 .00000     1.0000     .00000    
+barramento 5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 5.Utilization                     2.3853E-4  2.9014E-5 .00000     1.0000     .00000    
+barramento 4.NumberBusy                      2.5312E-4  2.9491E-5 .00000     1.0000     .00000    
+barramento 4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 4.Utilization                     2.5312E-4  2.9491E-5 .00000     1.0000     .00000    
+barramento 3.NumberBusy                      2.6157E-4  2.8027E-5 .00000     1.0000     .00000    
+barramento 3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 3.Utilization                     2.6157E-4  2.8027E-5 .00000     1.0000     .00000    
+barramento 2.NumberBusy                      2.6345E-4  3.0889E-5 .00000     1.0000     .00000    
+barramento 2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 2.Utilization                     2.6345E-4  3.0889E-5 .00000     1.0000     .00000    
+barramento 1.NumberBusy                      2.7256E-4  2.9414E-5 .00000     1.0000     .00000    
+barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 1.Utilization                     2.7256E-4  2.9414E-5 .00000     1.0000     .00000    
+Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
+Mensagem eh processada.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Repassa o token.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             CONTADORES
+
+Identificador                                    Limite Contagem
+_____________________________________________________________
+
+Respostas recebidas                             600  Infinite
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+mensagem.NumberIn                           601.00    
+mensagem.NumberOut                          600.00    
+maquina 1.NumberSeized                      685.00    
+maquina 1.ScheduledUtilization              .00114    
+maquina 3.NumberSeized                      681.00    
+maquina 3.ScheduledUtilization              .00113    
+maquina 2.NumberSeized                      675.00    
+maquina 2.ScheduledUtilization              .00112    
+maquina 5.NumberSeized                      687.00    
+maquina 5.ScheduledUtilization              .00114    
+maquina 4.NumberSeized                      671.00    
+maquina 4.ScheduledUtilization              .00112    
+maquina 7.NumberSeized                      679.00    
+maquina 7.ScheduledUtilization              .00113    
+maquina 6.NumberSeized                      662.00    
+maquina 6.ScheduledUtilization              .00110    
+maquina 8.NumberSeized                      661.00    
+maquina 8.ScheduledUtilization              .00110    
+barramento 8.NumberSeized                   639.00    
+barramento 8.ScheduledUtilization            2.4005E-4
+barramento 7.NumberSeized                   639.00    
+barramento 7.ScheduledUtilization            2.2767E-4
+barramento 6.NumberSeized                   639.00    
+barramento 6.ScheduledUtilization            2.2784E-4
+barramento 5.NumberSeized                   639.00    
+barramento 5.ScheduledUtilization            2.3853E-4
+barramento 4.NumberSeized                   639.00    
+barramento 4.ScheduledUtilization            2.5312E-4
+barramento 3.NumberSeized                   639.00    
+barramento 3.ScheduledUtilization            2.6157E-4
+barramento 2.NumberSeized                   639.00    
+barramento 2.ScheduledUtilization            2.6345E-4
+barramento 1.NumberSeized                   640.00    
+barramento 1.ScheduledUtilization            2.7256E-4
+System.NumberOut                            600.00    
+
+Iniciando replicação 4 de 10
+
+                                      ARENA Simulation Results
+                         alex.davis.neuwiem@grad.ufsc.br - License: STUDENT
+
+                                  Sumário para Replicação 4 de 10
+
+Projeto: MS3                                                         Data da execução :12/ 9/2024
+Analista: alex.davis.neuwiem@grad.ufsc.br                             Data de revisão do modelo:12/ 9/2024
+
+Replicação terminada no tempo de      : 600.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Tempo ate receber resposta                  .01096      1.4839E-4 .00903     .01588        600    
+Tempo de espera para transmitir mensagem    1.9700     (Insuf)    .99394     15.001        301    
+mensagem.VATime                             .01096      1.4839E-4 .00903     .01588        600    
+mensagem.NVATime                            .00000     .00000     .00000     .00000        600    
+mensagem.WaitTime                           .00000     .00000     .00000     .00000        600    
+mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
+mensagem.OtherTime                          .00000     .00000     .00000     .00000        600    
+mensagem.TotalTime                          .01096      1.4839E-4 .00903     .01588        600    
+Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       4800    
+Mensagem eh processada.Queue.WaitingTime    .00000     .00000     .00000     .00000       5401    
+Repassa o token.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        302    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+possui_token Value                          4.3182     (Insuf)    1.0000     8.0000     7.0000    
+mensagem.WIP                                .01096      1.4839E-4 .00000     1.0000     1.0000    
+maquina 1.NumberBusy                        .00114      4.2399E-5 .00000     1.0000     .00000    
+maquina 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 1.Utilization                       .00114      4.2399E-5 .00000     1.0000     .00000    
+maquina 3.NumberBusy                        .00112      3.1226E-5 .00000     1.0000     .00000    
+maquina 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 3.Utilization                       .00112      3.1226E-5 .00000     1.0000     .00000    
+maquina 2.NumberBusy                        .00115      4.1811E-5 .00000     1.0000     .00000    
+maquina 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 2.Utilization                       .00115      4.1811E-5 .00000     1.0000     .00000    
+maquina 5.NumberBusy                        .00112      3.1822E-5 .00000     1.0000     .00000    
+maquina 5.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 5.Utilization                       .00112      3.1822E-5 .00000     1.0000     .00000    
+maquina 4.NumberBusy                        .00112      3.1162E-5 .00000     1.0000     .00000    
+maquina 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 4.Utilization                       .00112      3.1162E-5 .00000     1.0000     .00000    
+maquina 7.NumberBusy                        .00112      2.5257E-5 .00000     1.0000     1.0000    
+maquina 7.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 7.Utilization                       .00112      2.5257E-5 .00000     1.0000     1.0000    
+maquina 6.NumberBusy                        .00111      2.4622E-5 .00000     1.0000     .00000    
+maquina 6.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 6.Utilization                       .00111      2.4622E-5 .00000     1.0000     .00000    
+maquina 8.NumberBusy                        .00111      2.5915E-5 .00000     1.0000     .00000    
+maquina 8.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 8.Utilization                       .00111      2.5915E-5 .00000     1.0000     .00000    
+barramento 8.NumberBusy                      2.4935E-4  3.1394E-5 .00000     1.0000     .00000    
+barramento 8.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 8.Utilization                     2.4935E-4  3.1394E-5 .00000     1.0000     .00000    
+barramento 7.NumberBusy                      2.2333E-4  2.9702E-5 .00000     1.0000     .00000    
+barramento 7.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 7.Utilization                     2.2333E-4  2.9702E-5 .00000     1.0000     .00000    
+barramento 6.NumberBusy                      2.3508E-4  2.7346E-5 .00000     1.0000     .00000    
+barramento 6.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 6.Utilization                     2.3508E-4  2.7346E-5 .00000     1.0000     .00000    
+barramento 5.NumberBusy                      2.4628E-4  2.4546E-5 .00000     1.0000     .00000    
+barramento 5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 5.Utilization                     2.4628E-4  2.4546E-5 .00000     1.0000     .00000    
+barramento 4.NumberBusy                      2.2703E-4  2.4012E-5 .00000     1.0000     .00000    
+barramento 4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 4.Utilization                     2.2703E-4  2.4012E-5 .00000     1.0000     .00000    
+barramento 3.NumberBusy                      2.3975E-4  2.6925E-5 .00000     1.0000     .00000    
+barramento 3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 3.Utilization                     2.3975E-4  2.6925E-5 .00000     1.0000     .00000    
+barramento 2.NumberBusy                      2.6962E-4  2.7351E-5 .00000     1.0000     .00000    
+barramento 2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 2.Utilization                     2.6962E-4  2.7351E-5 .00000     1.0000     .00000    
+barramento 1.NumberBusy                      2.6840E-4  3.3185E-5 .00000     1.0000     .00000    
+barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 1.Utilization                     2.6840E-4  3.3185E-5 .00000     1.0000     .00000    
+Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
+Mensagem eh processada.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Repassa o token.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             CONTADORES
+
+Identificador                                    Limite Contagem
+_____________________________________________________________
+
+Respostas recebidas                             600  Infinite
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+mensagem.NumberIn                           601.00    
+mensagem.NumberOut                          600.00    
+maquina 1.NumberSeized                      684.00    
+maquina 1.ScheduledUtilization              .00114    
+maquina 3.NumberSeized                      672.00    
+maquina 3.ScheduledUtilization              .00112    
+maquina 2.NumberSeized                      692.00    
+maquina 2.ScheduledUtilization              .00115    
+maquina 5.NumberSeized                      675.00    
+maquina 5.ScheduledUtilization              .00112    
+maquina 4.NumberSeized                      671.00    
+maquina 4.ScheduledUtilization              .00112    
+maquina 7.NumberSeized                      671.00    
+maquina 7.ScheduledUtilization              .00112    
+maquina 6.NumberSeized                      668.00    
+maquina 6.ScheduledUtilization              .00111    
+maquina 8.NumberSeized                      668.00    
+maquina 8.ScheduledUtilization              .00111    
+barramento 8.NumberSeized                   637.00    
+barramento 8.ScheduledUtilization            2.4935E-4
+barramento 7.NumberSeized                   637.00    
+barramento 7.ScheduledUtilization            2.2333E-4
+barramento 6.NumberSeized                   638.00    
+barramento 6.ScheduledUtilization            2.3508E-4
+barramento 5.NumberSeized                   638.00    
+barramento 5.ScheduledUtilization            2.4628E-4
+barramento 4.NumberSeized                   638.00    
+barramento 4.ScheduledUtilization            2.2703E-4
+barramento 3.NumberSeized                   638.00    
+barramento 3.ScheduledUtilization            2.3975E-4
+barramento 2.NumberSeized                   638.00    
+barramento 2.ScheduledUtilization            2.6962E-4
+barramento 1.NumberSeized                   638.00    
+barramento 1.ScheduledUtilization            2.6840E-4
+System.NumberOut                            600.00    
+
+Iniciando replicação 5 de 10
+
+                                      ARENA Simulation Results
+                         alex.davis.neuwiem@grad.ufsc.br - License: STUDENT
+
+                                  Sumário para Replicação 5 de 10
+
+Projeto: MS3                                                         Data da execução :12/ 9/2024
+Analista: alex.davis.neuwiem@grad.ufsc.br                             Data de revisão do modelo:12/ 9/2024
+
+Replicação terminada no tempo de      : 600.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Tempo ate receber resposta                  .01097      1.3060E-4 .00904     .01581        600    
+Tempo de espera para transmitir mensagem    2.2238     (Insuf)    .99408     9.9995        268    
+mensagem.VATime                             .01097      1.3061E-4 .00904     .01581        600    
+mensagem.NVATime                            .00000     .00000     .00000     .00000        600    
+mensagem.WaitTime                           .00000     .00000     .00000     .00000        600    
+mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
+mensagem.OtherTime                          .00000     .00000     .00000     .00000        600    
+mensagem.TotalTime                          .01097      1.3061E-4 .00904     .01581        600    
+Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       4800    
+Mensagem eh processada.Queue.WaitingTime    .00000     .00000     .00000     .00000       5401    
+Repassa o token.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        269    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+possui_token Value                          4.4668     (Insuf)    1.0000     8.0000     6.0000    
+mensagem.WIP                                .01097      1.3061E-4 .00000     1.0000     1.0000    
+maquina 1.NumberBusy                        .00110      2.6306E-5 .00000     1.0000     .00000    
+maquina 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 1.Utilization                       .00110      2.6306E-5 .00000     1.0000     .00000    
+maquina 3.NumberBusy                        .00113      3.9682E-5 .00000     1.0000     .00000    
+maquina 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 3.Utilization                       .00113      3.9682E-5 .00000     1.0000     .00000    
+maquina 2.NumberBusy                        .00113      3.1936E-5 .00000     1.0000     .00000    
+maquina 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 2.Utilization                       .00113      3.1936E-5 .00000     1.0000     .00000    
+maquina 5.NumberBusy                        .00117      3.8398E-5 .00000     1.0000     .00000    
+maquina 5.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 5.Utilization                       .00117      3.8398E-5 .00000     1.0000     .00000    
+maquina 4.NumberBusy                        .00113      3.8706E-5 .00000     1.0000     .00000    
+maquina 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 4.Utilization                       .00113      3.8706E-5 .00000     1.0000     .00000    
+maquina 7.NumberBusy                        .00110      2.9732E-5 .00000     1.0000     .00000    
+maquina 7.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 7.Utilization                       .00110      2.9732E-5 .00000     1.0000     .00000    
+maquina 6.NumberBusy                        .00111      2.5864E-5 .00000     1.0000     1.0000    
+maquina 6.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 6.Utilization                       .00111      2.5864E-5 .00000     1.0000     1.0000    
+maquina 8.NumberBusy                        .00111      3.2458E-5 .00000     1.0000     .00000    
+maquina 8.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 8.Utilization                       .00111      3.2458E-5 .00000     1.0000     .00000    
+barramento 8.NumberBusy                      2.5013E-4  2.9988E-5 .00000     1.0000     .00000    
+barramento 8.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 8.Utilization                     2.5013E-4  2.9988E-5 .00000     1.0000     .00000    
+barramento 7.NumberBusy                      2.1992E-4  2.6783E-5 .00000     1.0000     .00000    
+barramento 7.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 7.Utilization                     2.1992E-4  2.6783E-5 .00000     1.0000     .00000    
+barramento 6.NumberBusy                      2.3711E-4  2.4866E-5 .00000     1.0000     .00000    
+barramento 6.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 6.Utilization                     2.3711E-4  2.4866E-5 .00000     1.0000     .00000    
+barramento 5.NumberBusy                      2.4952E-4  3.0227E-5 .00000     1.0000     .00000    
+barramento 5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 5.Utilization                     2.4952E-4  3.0227E-5 .00000     1.0000     .00000    
+barramento 4.NumberBusy                      2.3721E-4  2.5003E-5 .00000     1.0000     .00000    
+barramento 4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 4.Utilization                     2.3721E-4  2.5003E-5 .00000     1.0000     .00000    
+barramento 3.NumberBusy                      2.4990E-4  2.7774E-5 .00000     1.0000     .00000    
+barramento 3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 3.Utilization                     2.4990E-4  2.7774E-5 .00000     1.0000     .00000    
+barramento 2.NumberBusy                      2.6056E-4  2.2572E-5 .00000     1.0000     .00000    
+barramento 2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 2.Utilization                     2.6056E-4  2.2572E-5 .00000     1.0000     .00000    
+barramento 1.NumberBusy                      2.6353E-4  3.0515E-5 .00000     1.0000     .00000    
+barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 1.Utilization                     2.6353E-4  3.0515E-5 .00000     1.0000     .00000    
+Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
+Mensagem eh processada.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Repassa o token.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             CONTADORES
+
+Identificador                                    Limite Contagem
+_____________________________________________________________
+
+Respostas recebidas                             600  Infinite
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+mensagem.NumberIn                           601.00    
+mensagem.NumberOut                          600.00    
+maquina 1.NumberSeized                      660.00    
+maquina 1.ScheduledUtilization              .00110    
+maquina 3.NumberSeized                      681.00    
+maquina 3.ScheduledUtilization              .00113    
+maquina 2.NumberSeized                      680.00    
+maquina 2.ScheduledUtilization              .00113    
+maquina 5.NumberSeized                      705.00    
+maquina 5.ScheduledUtilization              .00117    
+maquina 4.NumberSeized                      678.00    
+maquina 4.ScheduledUtilization              .00113    
+maquina 7.NumberSeized                      661.00    
+maquina 7.ScheduledUtilization              .00110    
+maquina 6.NumberSeized                      667.00    
+maquina 6.ScheduledUtilization              .00111    
+maquina 8.NumberSeized                      669.00    
+maquina 8.ScheduledUtilization              .00111    
+barramento 8.NumberSeized                   633.00    
+barramento 8.ScheduledUtilization            2.5013E-4
+barramento 7.NumberSeized                   633.00    
+barramento 7.ScheduledUtilization            2.1992E-4
+barramento 6.NumberSeized                   633.00    
+barramento 6.ScheduledUtilization            2.3711E-4
+barramento 5.NumberSeized                   634.00    
+barramento 5.ScheduledUtilization            2.4952E-4
+barramento 4.NumberSeized                   634.00    
+barramento 4.ScheduledUtilization            2.3721E-4
+barramento 3.NumberSeized                   634.00    
+barramento 3.ScheduledUtilization            2.4990E-4
+barramento 2.NumberSeized                   634.00    
+barramento 2.ScheduledUtilization            2.6056E-4
+barramento 1.NumberSeized                   634.00    
+barramento 1.ScheduledUtilization            2.6353E-4
+System.NumberOut                            600.00    
+
+Iniciando replicação 6 de 10
+
+                                      ARENA Simulation Results
+                         alex.davis.neuwiem@grad.ufsc.br - License: STUDENT
+
+                                  Sumário para Replicação 6 de 10
+
+Projeto: MS3                                                         Data da execução :12/ 9/2024
+Analista: alex.davis.neuwiem@grad.ufsc.br                             Data de revisão do modelo:12/ 9/2024
+
+Replicação terminada no tempo de      : 600.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Tempo ate receber resposta                  .01088      1.1605E-4 .00902     .01595        600    
+Tempo de espera para transmitir mensagem    2.0169     (Insuf)    .99451     9.0009        296    
+mensagem.VATime                             .01088      1.1606E-4 .00902     .01595        600    
+mensagem.NVATime                            .00000     .00000     .00000     .00000        600    
+mensagem.WaitTime                           .00000     .00000     .00000     .00000        600    
+mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
+mensagem.OtherTime                          .00000     .00000     .00000     .00000        600    
+mensagem.TotalTime                          .01088      1.1606E-4 .00902     .01595        600    
+Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       4800    
+Mensagem eh processada.Queue.WaitingTime    .00000     .00000     .00000     .00000       5401    
+Repassa o token.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        297    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+possui_token Value                          4.4115     (Insuf)    1.0000     8.0000     2.0000    
+mensagem.WIP                                .01088      1.1606E-4 .00000     1.0000     1.0000    
+maquina 1.NumberBusy                        .00113      2.9843E-5 .00000     1.0000     .00000    
+maquina 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 1.Utilization                       .00113      2.9843E-5 .00000     1.0000     .00000    
+maquina 3.NumberBusy                        .00114      2.8739E-5 .00000     1.0000     .00000    
+maquina 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 3.Utilization                       .00114      2.8739E-5 .00000     1.0000     .00000    
+maquina 2.NumberBusy                        .00113      3.2316E-5 .00000     1.0000     1.0000    
+maquina 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 2.Utilization                       .00113      3.2316E-5 .00000     1.0000     1.0000    
+maquina 5.NumberBusy                        .00114      3.2550E-5 .00000     1.0000     .00000    
+maquina 5.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 5.Utilization                       .00114      3.2550E-5 .00000     1.0000     .00000    
+maquina 4.NumberBusy                        .00112      2.3059E-5 .00000     1.0000     .00000    
+maquina 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 4.Utilization                       .00112      2.3059E-5 .00000     1.0000     .00000    
+maquina 7.NumberBusy                        .00111      2.8979E-5 .00000     1.0000     .00000    
+maquina 7.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 7.Utilization                       .00111      2.8979E-5 .00000     1.0000     .00000    
+maquina 6.NumberBusy                        .00112      3.0520E-5 .00000     1.0000     .00000    
+maquina 6.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 6.Utilization                       .00112      3.0520E-5 .00000     1.0000     .00000    
+maquina 8.NumberBusy                        .00112      2.9799E-5 .00000     1.0000     .00000    
+maquina 8.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 8.Utilization                       .00112      2.9799E-5 .00000     1.0000     .00000    
+barramento 8.NumberBusy                      2.3057E-4  2.1049E-5 .00000     1.0000     .00000    
+barramento 8.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 8.Utilization                     2.3057E-4  2.1049E-5 .00000     1.0000     .00000    
+barramento 7.NumberBusy                      2.1123E-4  2.3716E-5 .00000     1.0000     .00000    
+barramento 7.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 7.Utilization                     2.1123E-4  2.3716E-5 .00000     1.0000     .00000    
+barramento 6.NumberBusy                      2.1740E-4  2.4094E-5 .00000     1.0000     .00000    
+barramento 6.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 6.Utilization                     2.1740E-4  2.4094E-5 .00000     1.0000     .00000    
+barramento 5.NumberBusy                      2.3235E-4  2.5444E-5 .00000     1.0000     .00000    
+barramento 5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 5.Utilization                     2.3235E-4  2.5444E-5 .00000     1.0000     .00000    
+barramento 4.NumberBusy                      2.3826E-4  2.4526E-5 .00000     1.0000     .00000    
+barramento 4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 4.Utilization                     2.3826E-4  2.4526E-5 .00000     1.0000     .00000    
+barramento 3.NumberBusy                      2.3557E-4  2.3783E-5 .00000     1.0000     .00000    
+barramento 3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 3.Utilization                     2.3557E-4  2.3783E-5 .00000     1.0000     .00000    
+barramento 2.NumberBusy                      2.5232E-4  2.5470E-5 .00000     1.0000     .00000    
+barramento 2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 2.Utilization                     2.5232E-4  2.5470E-5 .00000     1.0000     .00000    
+barramento 1.NumberBusy                      2.6084E-4  2.4483E-5 .00000     1.0000     .00000    
+barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 1.Utilization                     2.6084E-4  2.4483E-5 .00000     1.0000     .00000    
+Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
+Mensagem eh processada.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Repassa o token.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             CONTADORES
+
+Identificador                                    Limite Contagem
+_____________________________________________________________
+
+Respostas recebidas                             600  Infinite
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+mensagem.NumberIn                           601.00    
+mensagem.NumberOut                          600.00    
+maquina 1.NumberSeized                      676.00    
+maquina 1.ScheduledUtilization              .00113    
+maquina 3.NumberSeized                      682.00    
+maquina 3.ScheduledUtilization              .00114    
+maquina 2.NumberSeized                      679.00    
+maquina 2.ScheduledUtilization              .00113    
+maquina 5.NumberSeized                      684.00    
+maquina 5.ScheduledUtilization              .00114    
+maquina 4.NumberSeized                      671.00    
+maquina 4.ScheduledUtilization              .00112    
+maquina 7.NumberSeized                      666.00    
+maquina 7.ScheduledUtilization              .00111    
+maquina 6.NumberSeized                      671.00    
+maquina 6.ScheduledUtilization              .00112    
+maquina 8.NumberSeized                      672.00    
+maquina 8.ScheduledUtilization              .00112    
+barramento 8.NumberSeized                   637.00    
+barramento 8.ScheduledUtilization            2.3057E-4
+barramento 7.NumberSeized                   637.00    
+barramento 7.ScheduledUtilization            2.1123E-4
+barramento 6.NumberSeized                   637.00    
+barramento 6.ScheduledUtilization            2.1740E-4
+barramento 5.NumberSeized                   637.00    
+barramento 5.ScheduledUtilization            2.3235E-4
+barramento 4.NumberSeized                   637.00    
+barramento 4.ScheduledUtilization            2.3826E-4
+barramento 3.NumberSeized                   637.00    
+barramento 3.ScheduledUtilization            2.3557E-4
+barramento 2.NumberSeized                   637.00    
+barramento 2.ScheduledUtilization            2.5232E-4
+barramento 1.NumberSeized                   638.00    
+barramento 1.ScheduledUtilization            2.6084E-4
+System.NumberOut                            600.00    
+
+Iniciando replicação 7 de 10
+
+                                      ARENA Simulation Results
+                         alex.davis.neuwiem@grad.ufsc.br - License: STUDENT
+
+                                  Sumário para Replicação 7 de 10
+
+Projeto: MS3                                                         Data da execução :12/ 9/2024
+Analista: alex.davis.neuwiem@grad.ufsc.br                             Data de revisão do modelo:12/ 9/2024
+
+Replicação terminada no tempo de      : 600.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Tempo ate receber resposta                  .01104      1.3336E-4 .00903     .01598        600    
+Tempo de espera para transmitir mensagem    2.1321     (Insuf)    .99318     10.995        280    
+mensagem.VATime                             .01104      1.3338E-4 .00903     .01598        600    
+mensagem.NVATime                            .00000     .00000     .00000     .00000        600    
+mensagem.WaitTime                           .00000     .00000     .00000     .00000        600    
+mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
+mensagem.OtherTime                          .00000     .00000     .00000     .00000        600    
+mensagem.TotalTime                          .01104      1.3338E-4 .00903     .01598        600    
+Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       4800    
+Mensagem eh processada.Queue.WaitingTime    .00000     .00000     .00000     .00000       5401    
+Repassa o token.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        281    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+possui_token Value                          4.3917     (Insuf)    1.0000     8.0000     2.0000    
+mensagem.WIP                                .01104      1.3338E-4 .00000     1.0000     1.0000    
+maquina 1.NumberBusy                        .00113      4.0489E-5 .00000     1.0000     .00000    
+maquina 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 1.Utilization                       .00113      4.0489E-5 .00000     1.0000     .00000    
+maquina 3.NumberBusy                        .00110      3.0542E-5 .00000     1.0000     .00000    
+maquina 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 3.Utilization                       .00110      3.0542E-5 .00000     1.0000     .00000    
+maquina 2.NumberBusy                        .00114      4.5989E-5 .00000     1.0000     1.0000    
+maquina 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 2.Utilization                       .00114      4.5989E-5 .00000     1.0000     1.0000    
+maquina 5.NumberBusy                        .00112     (Corr)     .00000     1.0000     .00000    
+maquina 5.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 5.Utilization                       .00112     (Corr)     .00000     1.0000     .00000    
+maquina 4.NumberBusy                        .00115      4.1103E-5 .00000     1.0000     .00000    
+maquina 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 4.Utilization                       .00115      4.1103E-5 .00000     1.0000     .00000    
+maquina 7.NumberBusy                        .00111      2.6206E-5 .00000     1.0000     .00000    
+maquina 7.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 7.Utilization                       .00111      2.6206E-5 .00000     1.0000     .00000    
+maquina 6.NumberBusy                        .00112      3.3489E-5 .00000     1.0000     .00000    
+maquina 6.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 6.Utilization                       .00112      3.3489E-5 .00000     1.0000     .00000    
+maquina 8.NumberBusy                        .00112      3.4991E-5 .00000     1.0000     .00000    
+maquina 8.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 8.Utilization                       .00112      3.4991E-5 .00000     1.0000     .00000    
+barramento 8.NumberBusy                      2.4311E-4  3.4537E-5 .00000     1.0000     .00000    
+barramento 8.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 8.Utilization                     2.4311E-4  3.4537E-5 .00000     1.0000     .00000    
+barramento 7.NumberBusy                      2.2968E-4  2.4954E-5 .00000     1.0000     .00000    
+barramento 7.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 7.Utilization                     2.2968E-4  2.4954E-5 .00000     1.0000     .00000    
+barramento 6.NumberBusy                      2.3835E-4  2.7311E-5 .00000     1.0000     .00000    
+barramento 6.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 6.Utilization                     2.3835E-4  2.7311E-5 .00000     1.0000     .00000    
+barramento 5.NumberBusy                      2.6343E-4  3.2404E-5 .00000     1.0000     .00000    
+barramento 5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 5.Utilization                     2.6343E-4  3.2404E-5 .00000     1.0000     .00000    
+barramento 4.NumberBusy                      2.6109E-4  2.6990E-5 .00000     1.0000     .00000    
+barramento 4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 4.Utilization                     2.6109E-4  2.6990E-5 .00000     1.0000     .00000    
+barramento 3.NumberBusy                      2.6248E-4  3.4886E-5 .00000     1.0000     .00000    
+barramento 3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 3.Utilization                     2.6248E-4  3.4886E-5 .00000     1.0000     .00000    
+barramento 2.NumberBusy                      2.7419E-4  3.3509E-5 .00000     1.0000     .00000    
+barramento 2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 2.Utilization                     2.7419E-4  3.3509E-5 .00000     1.0000     .00000    
+barramento 1.NumberBusy                      2.7133E-4  3.5225E-5 .00000     1.0000     .00000    
+barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 1.Utilization                     2.7133E-4  3.5225E-5 .00000     1.0000     .00000    
+Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
+Mensagem eh processada.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Repassa o token.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             CONTADORES
+
+Identificador                                    Limite Contagem
+_____________________________________________________________
+
+Respostas recebidas                             600  Infinite
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+mensagem.NumberIn                           601.00    
+mensagem.NumberOut                          600.00    
+maquina 1.NumberSeized                      680.00    
+maquina 1.ScheduledUtilization              .00113    
+maquina 3.NumberSeized                      662.00    
+maquina 3.ScheduledUtilization              .00110    
+maquina 2.NumberSeized                      685.00    
+maquina 2.ScheduledUtilization              .00114    
+maquina 5.NumberSeized                      675.00    
+maquina 5.ScheduledUtilization              .00112    
+maquina 4.NumberSeized                      688.00    
+maquina 4.ScheduledUtilization              .00115    
+maquina 7.NumberSeized                      667.00    
+maquina 7.ScheduledUtilization              .00111    
+maquina 6.NumberSeized                      674.00    
+maquina 6.ScheduledUtilization              .00112    
+maquina 8.NumberSeized                      670.00    
+maquina 8.ScheduledUtilization              .00112    
+barramento 8.NumberSeized                   635.00    
+barramento 8.ScheduledUtilization            2.4311E-4
+barramento 7.NumberSeized                   635.00    
+barramento 7.ScheduledUtilization            2.2968E-4
+barramento 6.NumberSeized                   635.00    
+barramento 6.ScheduledUtilization            2.3835E-4
+barramento 5.NumberSeized                   635.00    
+barramento 5.ScheduledUtilization            2.6343E-4
+barramento 4.NumberSeized                   635.00    
+barramento 4.ScheduledUtilization            2.6109E-4
+barramento 3.NumberSeized                   635.00    
+barramento 3.ScheduledUtilization            2.6248E-4
+barramento 2.NumberSeized                   635.00    
+barramento 2.ScheduledUtilization            2.7419E-4
+barramento 1.NumberSeized                   636.00    
+barramento 1.ScheduledUtilization            2.7133E-4
+System.NumberOut                            600.00    
+
+Iniciando replicação 8 de 10
+
+                                      ARENA Simulation Results
+                         alex.davis.neuwiem@grad.ufsc.br - License: STUDENT
+
+                                  Sumário para Replicação 8 de 10
+
+Projeto: MS3                                                         Data da execução :12/ 9/2024
+Analista: alex.davis.neuwiem@grad.ufsc.br                             Data de revisão do modelo:12/ 9/2024
+
+Replicação terminada no tempo de      : 600.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Tempo ate receber resposta                  .01108      1.4721E-4 .00902     .01594        600    
+Tempo de espera para transmitir mensagem    2.0272     (Insuf)    .99373     11.001        294    
+mensagem.VATime                             .01108      1.4722E-4 .00902     .01594        600    
+mensagem.NVATime                            .00000     .00000     .00000     .00000        600    
+mensagem.WaitTime                           .00000     .00000     .00000     .00000        600    
+mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
+mensagem.OtherTime                          .00000     .00000     .00000     .00000        600    
+mensagem.TotalTime                          .01108      1.4722E-4 .00902     .01594        600    
+Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       4800    
+Mensagem eh processada.Queue.WaitingTime    .00000     .00000     .00000     .00000       5401    
+Repassa o token.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        295    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+possui_token Value                          4.5333     (Insuf)    1.0000     8.0000     8.0000    
+mensagem.WIP                                .01108      1.4722E-4 .00000     1.0000     1.0000    
+maquina 1.NumberBusy                        .00112      3.6640E-5 .00000     1.0000     .00000    
+maquina 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 1.Utilization                       .00112      3.6640E-5 .00000     1.0000     .00000    
+maquina 3.NumberBusy                        .00111      2.5021E-5 .00000     1.0000     .00000    
+maquina 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 3.Utilization                       .00111      2.5021E-5 .00000     1.0000     .00000    
+maquina 2.NumberBusy                        .00111     (Corr)     .00000     1.0000     .00000    
+maquina 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 2.Utilization                       .00111     (Corr)     .00000     1.0000     .00000    
+maquina 5.NumberBusy                        .00113      3.1614E-5 .00000     1.0000     .00000    
+maquina 5.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 5.Utilization                       .00113      3.1614E-5 .00000     1.0000     .00000    
+maquina 4.NumberBusy                        .00117      4.6905E-5 .00000     1.0000     .00000    
+maquina 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 4.Utilization                       .00117      4.6905E-5 .00000     1.0000     .00000    
+maquina 7.NumberBusy                        .00112      2.5439E-5 .00000     1.0000     .00000    
+maquina 7.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 7.Utilization                       .00112      2.5439E-5 .00000     1.0000     .00000    
+maquina 6.NumberBusy                        .00112      3.5894E-5 .00000     1.0000     .00000    
+maquina 6.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 6.Utilization                       .00112      3.5894E-5 .00000     1.0000     .00000    
+maquina 8.NumberBusy                        .00112      2.8358E-5 .00000     1.0000     1.0000    
+maquina 8.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 8.Utilization                       .00112      2.8358E-5 .00000     1.0000     1.0000    
+barramento 8.NumberBusy                      2.6352E-4  3.0185E-5 .00000     1.0000     .00000    
+barramento 8.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 8.Utilization                     2.6352E-4  3.0185E-5 .00000     1.0000     .00000    
+barramento 7.NumberBusy                      2.2839E-4  2.4029E-5 .00000     1.0000     .00000    
+barramento 7.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 7.Utilization                     2.2839E-4  2.4029E-5 .00000     1.0000     .00000    
+barramento 6.NumberBusy                      2.4670E-4  2.7930E-5 .00000     1.0000     .00000    
+barramento 6.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 6.Utilization                     2.4670E-4  2.7930E-5 .00000     1.0000     .00000    
+barramento 5.NumberBusy                      2.6296E-4  2.9171E-5 .00000     1.0000     .00000    
+barramento 5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 5.Utilization                     2.6296E-4  2.9171E-5 .00000     1.0000     .00000    
+barramento 4.NumberBusy                      2.7726E-4  3.0981E-5 .00000     1.0000     .00000    
+barramento 4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 4.Utilization                     2.7726E-4  3.0981E-5 .00000     1.0000     .00000    
+barramento 3.NumberBusy                      2.4155E-4  3.2554E-5 .00000     1.0000     .00000    
+barramento 3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 3.Utilization                     2.4155E-4  3.2554E-5 .00000     1.0000     .00000    
+barramento 2.NumberBusy                      2.6830E-4  2.9646E-5 .00000     1.0000     .00000    
+barramento 2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 2.Utilization                     2.6830E-4  2.9646E-5 .00000     1.0000     .00000    
+barramento 1.NumberBusy                      2.9441E-4  3.2990E-5 .00000     1.0000     .00000    
+barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 1.Utilization                     2.9441E-4  3.2990E-5 .00000     1.0000     .00000    
+Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
+Mensagem eh processada.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Repassa o token.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             CONTADORES
+
+Identificador                                    Limite Contagem
+_____________________________________________________________
+
+Respostas recebidas                             600  Infinite
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+mensagem.NumberIn                           601.00    
+mensagem.NumberOut                          600.00    
+maquina 1.NumberSeized                      674.00    
+maquina 1.ScheduledUtilization              .00112    
+maquina 3.NumberSeized                      664.00    
+maquina 3.ScheduledUtilization              .00111    
+maquina 2.NumberSeized                      665.00    
+maquina 2.ScheduledUtilization              .00111    
+maquina 5.NumberSeized                      677.00    
+maquina 5.ScheduledUtilization              .00113    
+maquina 4.NumberSeized                      703.00    
+maquina 4.ScheduledUtilization              .00117    
+maquina 7.NumberSeized                      672.00    
+maquina 7.ScheduledUtilization              .00112    
+maquina 6.NumberSeized                      672.00    
+maquina 6.ScheduledUtilization              .00112    
+maquina 8.NumberSeized                      674.00    
+maquina 8.ScheduledUtilization              .00112    
+barramento 8.NumberSeized                   636.00    
+barramento 8.ScheduledUtilization            2.6352E-4
+barramento 7.NumberSeized                   637.00    
+barramento 7.ScheduledUtilization            2.2839E-4
+barramento 6.NumberSeized                   637.00    
+barramento 6.ScheduledUtilization            2.4670E-4
+barramento 5.NumberSeized                   637.00    
+barramento 5.ScheduledUtilization            2.6296E-4
+barramento 4.NumberSeized                   637.00    
+barramento 4.ScheduledUtilization            2.7726E-4
+barramento 3.NumberSeized                   637.00    
+barramento 3.ScheduledUtilization            2.4155E-4
+barramento 2.NumberSeized                   637.00    
+barramento 2.ScheduledUtilization            2.6830E-4
+barramento 1.NumberSeized                   637.00    
+barramento 1.ScheduledUtilization            2.9441E-4
+System.NumberOut                            600.00    
+
+Iniciando replicação 9 de 10
+
+                                      ARENA Simulation Results
+                         alex.davis.neuwiem@grad.ufsc.br - License: STUDENT
+
+                                  Sumário para Replicação 9 de 10
+
+Projeto: MS3                                                         Data da execução :12/ 9/2024
+Analista: alex.davis.neuwiem@grad.ufsc.br                             Data de revisão do modelo:12/ 9/2024
+
+Replicação terminada no tempo de      : 600.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Tempo ate receber resposta                  .01105      1.3655E-4 .00903     .01599        600    
+Tempo de espera para transmitir mensagem    1.9768     (Insuf)    .99350     9.0024        303    
+mensagem.VATime                             .01105      1.3656E-4 .00903     .01599        600    
+mensagem.NVATime                            .00000     .00000     .00000     .00000        600    
+mensagem.WaitTime                           .00000     .00000     .00000     .00000        600    
+mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
+mensagem.OtherTime                          .00000     .00000     .00000     .00000        600    
+mensagem.TotalTime                          .01105      1.3656E-4 .00903     .01599        600    
+Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       4800    
+Mensagem eh processada.Queue.WaitingTime    .00000     .00000     .00000     .00000       5401    
+Repassa o token.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        304    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+possui_token Value                          4.3714     (Insuf)    1.0000     8.0000     1.0000    
+mensagem.WIP                                .01105      1.3656E-4 .00000     1.0000     1.0000    
+maquina 1.NumberBusy                        .00115     (Corr)     .00000     1.0000     1.0000    
+maquina 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 1.Utilization                       .00115     (Corr)     .00000     1.0000     1.0000    
+maquina 3.NumberBusy                        .00112      2.5192E-5 .00000     1.0000     .00000    
+maquina 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 3.Utilization                       .00112      2.5192E-5 .00000     1.0000     .00000    
+maquina 2.NumberBusy                        .00112      3.0607E-5 .00000     1.0000     .00000    
+maquina 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 2.Utilization                       .00112      3.0607E-5 .00000     1.0000     .00000    
+maquina 5.NumberBusy                        .00111      2.4729E-5 .00000     1.0000     .00000    
+maquina 5.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 5.Utilization                       .00111      2.4729E-5 .00000     1.0000     .00000    
+maquina 4.NumberBusy                        .00114      2.8323E-5 .00000     1.0000     .00000    
+maquina 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 4.Utilization                       .00114      2.8323E-5 .00000     1.0000     .00000    
+maquina 7.NumberBusy                        .00112      2.6506E-5 .00000     1.0000     .00000    
+maquina 7.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 7.Utilization                       .00112      2.6506E-5 .00000     1.0000     .00000    
+maquina 6.NumberBusy                        .00112      3.4402E-5 .00000     1.0000     .00000    
+maquina 6.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 6.Utilization                       .00112      3.4402E-5 .00000     1.0000     .00000    
+maquina 8.NumberBusy                        .00111      2.9025E-5 .00000     1.0000     .00000    
+maquina 8.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 8.Utilization                       .00111      2.9025E-5 .00000     1.0000     .00000    
+barramento 8.NumberBusy                      2.4992E-4  2.6877E-5 .00000     1.0000     .00000    
+barramento 8.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 8.Utilization                     2.4992E-4  2.6877E-5 .00000     1.0000     .00000    
+barramento 7.NumberBusy                      2.3286E-4  2.1321E-5 .00000     1.0000     .00000    
+barramento 7.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 7.Utilization                     2.3286E-4  2.1321E-5 .00000     1.0000     .00000    
+barramento 6.NumberBusy                      2.2394E-4  2.3206E-5 .00000     1.0000     .00000    
+barramento 6.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 6.Utilization                     2.2394E-4  2.3206E-5 .00000     1.0000     .00000    
+barramento 5.NumberBusy                      2.4262E-4  3.3420E-5 .00000     1.0000     .00000    
+barramento 5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 5.Utilization                     2.4262E-4  3.3420E-5 .00000     1.0000     .00000    
+barramento 4.NumberBusy                      2.6389E-4  2.9307E-5 .00000     1.0000     .00000    
+barramento 4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 4.Utilization                     2.6389E-4  2.9307E-5 .00000     1.0000     .00000    
+barramento 3.NumberBusy                      2.5879E-4  2.8768E-5 .00000     1.0000     .00000    
+barramento 3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 3.Utilization                     2.5879E-4  2.8768E-5 .00000     1.0000     .00000    
+barramento 2.NumberBusy                      2.8146E-4  3.0526E-5 .00000     1.0000     .00000    
+barramento 2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 2.Utilization                     2.8146E-4  3.0526E-5 .00000     1.0000     .00000    
+barramento 1.NumberBusy                      2.9293E-4 (Corr)     .00000     1.0000     .00000    
+barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 1.Utilization                     2.9293E-4 (Corr)     .00000     1.0000     .00000    
+Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
+Mensagem eh processada.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Repassa o token.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             CONTADORES
+
+Identificador                                    Limite Contagem
+_____________________________________________________________
+
+Respostas recebidas                             600  Infinite
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+mensagem.NumberIn                           601.00    
+mensagem.NumberOut                          600.00    
+maquina 1.NumberSeized                      690.00    
+maquina 1.ScheduledUtilization              .00115    
+maquina 3.NumberSeized                      674.00    
+maquina 3.ScheduledUtilization              .00112    
+maquina 2.NumberSeized                      671.00    
+maquina 2.ScheduledUtilization              .00112    
+maquina 5.NumberSeized                      666.00    
+maquina 5.ScheduledUtilization              .00111    
+maquina 4.NumberSeized                      685.00    
+maquina 4.ScheduledUtilization              .00114    
+maquina 7.NumberSeized                      672.00    
+maquina 7.ScheduledUtilization              .00112    
+maquina 6.NumberSeized                      674.00    
+maquina 6.ScheduledUtilization              .00112    
+maquina 8.NumberSeized                      669.00    
+maquina 8.ScheduledUtilization              .00111    
+barramento 8.NumberSeized                   638.00    
+barramento 8.ScheduledUtilization            2.4992E-4
+barramento 7.NumberSeized                   638.00    
+barramento 7.ScheduledUtilization            2.3286E-4
+barramento 6.NumberSeized                   638.00    
+barramento 6.ScheduledUtilization            2.2394E-4
+barramento 5.NumberSeized                   638.00    
+barramento 5.ScheduledUtilization            2.4262E-4
+barramento 4.NumberSeized                   638.00    
+barramento 4.ScheduledUtilization            2.6389E-4
+barramento 3.NumberSeized                   638.00    
+barramento 3.ScheduledUtilization            2.5879E-4
+barramento 2.NumberSeized                   638.00    
+barramento 2.ScheduledUtilization            2.8146E-4
+barramento 1.NumberSeized                   638.00    
+barramento 1.ScheduledUtilization            2.9293E-4
+System.NumberOut                            600.00    
+
+Iniciando replicação 10 de 10
+
+                                      ARENA Simulation Results
+                         alex.davis.neuwiem@grad.ufsc.br - License: STUDENT
+
+                                  Sumário para Replicação 10 de 10
+
+Projeto: MS3                                                         Data da execução :12/ 9/2024
+Analista: alex.davis.neuwiem@grad.ufsc.br                             Data de revisão do modelo:12/ 9/2024
+
+Replicação terminada no tempo de      : 600.0 Segundos 
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Tempo ate receber resposta                  .01108      1.5122E-4 .00904     .01599        600    
+Tempo de espera para transmitir mensagem    1.9415     (Insuf)    .99474     8.0030        308    
+mensagem.VATime                             .01108      1.5122E-4 .00904     .01599        600    
+mensagem.NVATime                            .00000     .00000     .00000     .00000        600    
+mensagem.WaitTime                           .00000     .00000     .00000     .00000        600    
+mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
+mensagem.OtherTime                          .00000     .00000     .00000     .00000        600    
+mensagem.TotalTime                          .01108      1.5122E-4 .00904     .01599        600    
+Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       4800    
+Mensagem eh processada.Queue.WaitingTime    .00000     .00000     .00000     .00000       5401    
+Repassa o token.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        309    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+possui_token Value                          4.5650     (Insuf)    1.0000     8.0000     6.0000    
+mensagem.WIP                                .01108      1.5122E-4 .00000     1.0000     1.0000    
+maquina 1.NumberBusy                        .00111      2.7291E-5 .00000     1.0000     .00000    
+maquina 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 1.Utilization                       .00111      2.7291E-5 .00000     1.0000     .00000    
+maquina 3.NumberBusy                        .00113      2.6606E-5 .00000     1.0000     .00000    
+maquina 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 3.Utilization                       .00113      2.6606E-5 .00000     1.0000     .00000    
+maquina 2.NumberBusy                        .00113      2.4889E-5 .00000     1.0000     .00000    
+maquina 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 2.Utilization                       .00113      2.4889E-5 .00000     1.0000     .00000    
+maquina 5.NumberBusy                        .00114      2.8877E-5 .00000     1.0000     .00000    
+maquina 5.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 5.Utilization                       .00114      2.8877E-5 .00000     1.0000     .00000    
+maquina 4.NumberBusy                        .00112      3.0205E-5 .00000     1.0000     .00000    
+maquina 4.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 4.Utilization                       .00112      3.0205E-5 .00000     1.0000     .00000    
+maquina 7.NumberBusy                        .00114      3.2070E-5 .00000     1.0000     .00000    
+maquina 7.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 7.Utilization                       .00114      3.2070E-5 .00000     1.0000     .00000    
+maquina 6.NumberBusy                        .00111      2.3102E-5 .00000     1.0000     1.0000    
+maquina 6.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 6.Utilization                       .00111      2.3102E-5 .00000     1.0000     1.0000    
+maquina 8.NumberBusy                        .00113      2.9964E-5 .00000     1.0000     .00000    
+maquina 8.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+maquina 8.Utilization                       .00113      2.9964E-5 .00000     1.0000     .00000    
+barramento 8.NumberBusy                      2.6432E-4  2.5080E-5 .00000     1.0000     .00000    
+barramento 8.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 8.Utilization                     2.6432E-4  2.5080E-5 .00000     1.0000     .00000    
+barramento 7.NumberBusy                      2.5054E-4  2.6065E-5 .00000     1.0000     .00000    
+barramento 7.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 7.Utilization                     2.5054E-4  2.6065E-5 .00000     1.0000     .00000    
+barramento 6.NumberBusy                      2.5111E-4  2.7692E-5 .00000     1.0000     .00000    
+barramento 6.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 6.Utilization                     2.5111E-4  2.7692E-5 .00000     1.0000     .00000    
+barramento 5.NumberBusy                      2.5542E-4  3.0358E-5 .00000     1.0000     .00000    
+barramento 5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 5.Utilization                     2.5542E-4  3.0358E-5 .00000     1.0000     .00000    
+barramento 4.NumberBusy                      2.5137E-4  3.2371E-5 .00000     1.0000     .00000    
+barramento 4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 4.Utilization                     2.5137E-4  3.2371E-5 .00000     1.0000     .00000    
+barramento 3.NumberBusy                      2.6659E-4  2.9655E-5 .00000     1.0000     .00000    
+barramento 3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 3.Utilization                     2.6659E-4  2.9655E-5 .00000     1.0000     .00000    
+barramento 2.NumberBusy                      2.7337E-4  2.6380E-5 .00000     1.0000     .00000    
+barramento 2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 2.Utilization                     2.7337E-4  2.6380E-5 .00000     1.0000     .00000    
+barramento 1.NumberBusy                      2.6614E-4  2.6525E-5 .00000     1.0000     .00000    
+barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barramento 1.Utilization                     2.6614E-4  2.6525E-5 .00000     1.0000     .00000    
+Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
+Mensagem eh processada.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Repassa o token.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             CONTADORES
+
+Identificador                                    Limite Contagem
+_____________________________________________________________
+
+Respostas recebidas                             600  Infinite
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+mensagem.NumberIn                           601.00    
+mensagem.NumberOut                          600.00    
+maquina 1.NumberSeized                      668.00    
+maquina 1.ScheduledUtilization              .00111    
+maquina 3.NumberSeized                      676.00    
+maquina 3.ScheduledUtilization              .00113    
+maquina 2.NumberSeized                      677.00    
+maquina 2.ScheduledUtilization              .00113    
+maquina 5.NumberSeized                      682.00    
+maquina 5.ScheduledUtilization              .00114    
+maquina 4.NumberSeized                      673.00    
+maquina 4.ScheduledUtilization              .00112    
+maquina 7.NumberSeized                      682.00    
+maquina 7.ScheduledUtilization              .00114    
+maquina 6.NumberSeized                      665.00    
+maquina 6.ScheduledUtilization              .00111    
+maquina 8.NumberSeized                      678.00    
+maquina 8.ScheduledUtilization              .00113    
+barramento 8.NumberSeized                   638.00    
+barramento 8.ScheduledUtilization            2.6432E-4
+barramento 7.NumberSeized                   638.00    
+barramento 7.ScheduledUtilization            2.5054E-4
+barramento 6.NumberSeized                   638.00    
+barramento 6.ScheduledUtilization            2.5111E-4
+barramento 5.NumberSeized                   639.00    
+barramento 5.ScheduledUtilization            2.5542E-4
+barramento 4.NumberSeized                   639.00    
+barramento 4.ScheduledUtilization            2.5137E-4
+barramento 3.NumberSeized                   639.00    
+barramento 3.ScheduledUtilization            2.6659E-4
+barramento 2.NumberSeized                   639.00    
+barramento 2.ScheduledUtilization            2.7337E-4
+barramento 1.NumberSeized                   639.00    
+barramento 1.ScheduledUtilization            2.6614E-4
+System.NumberOut                            600.00    
+
+
+                                      ARENA Simulation Results
+                         alex.davis.neuwiem@grad.ufsc.br - License: STUDENT
+
+                              Resumo de resultados para 10 Replicações
+
+Projeto: MS3                                                         Data da execução :12/ 9/2024
+Analista: alex.davis.neuwiem@grad.ufsc.br                             Data de revisão do modelo:12/ 9/2024
+
+
+                                             RESULTADOS
+
+Identificador                                 Média    Meia-largura Mínima    Maximo # de Replicações
+___________________________________________________________________________________________________
+
+mensagem.NumberIn                           601.00     .00000     601.00     601.00     10
+mensagem.NumberOut                          600.00     .00000     600.00     600.00     10
+maquina 1.NumberSeized                      676.40     6.4527     660.00     690.00     10
+maquina 1.ScheduledUtilization              .00113      1.0560E-5 .00110     .00115     10
+maquina 3.NumberSeized                      672.90     5.1299     662.00     682.00     10
+maquina 3.ScheduledUtilization              .00112      8.5500E-6 .00110     .00114     10
+maquina 2.NumberSeized                      679.00     5.7915     665.00     692.00     10
+maquina 2.ScheduledUtilization              .00113      9.6371E-6 .00111     .00115     10
+maquina 5.NumberSeized                      681.00     7.3258     666.00     705.00     10
+maquina 5.ScheduledUtilization              .00113      1.2254E-5 .00111     .00117     10
+maquina 4.NumberSeized                      679.20     7.6804     669.00     703.00     10
+maquina 4.ScheduledUtilization              .00113      1.2801E-5 .00111     .00117     10
+maquina 7.NumberSeized                      673.40     5.3972     661.00     682.00     10
+maquina 7.ScheduledUtilization              .00112      9.0454E-6 .00110     .00114     10
+maquina 6.NumberSeized                      668.70     2.9980     662.00     674.00     10
+maquina 6.ScheduledUtilization              .00111      5.1569E-6 .00110     .00112     10
+maquina 8.NumberSeized                      670.40     3.1488     661.00     678.00     10
+maquina 8.ScheduledUtilization              .00112      5.1523E-6 .00110     .00113     10
+barramento 8.NumberSeized                   636.60     1.2251     633.00     639.00     10
+barramento 8.ScheduledUtilization            2.4939E-4  7.3927E-6  2.3057E-4  2.6432E-4 10
+barramento 7.NumberSeized                   636.70     1.2181     633.00     639.00     10
+barramento 7.ScheduledUtilization            2.2709E-4  8.2913E-6  2.1123E-4  2.5054E-4 10
+barramento 6.NumberSeized                   636.80     1.2526     633.00     639.00     10
+barramento 6.ScheduledUtilization            2.3227E-4  8.2984E-6  2.1619E-4  2.5111E-4 10
+barramento 5.NumberSeized                   637.10     1.1897     634.00     639.00     10
+barramento 5.ScheduledUtilization            2.4503E-4  9.2627E-6  2.2557E-4  2.6343E-4 10
+barramento 4.NumberSeized                   637.20     1.1583     634.00     639.00     10
+barramento 4.ScheduledUtilization            2.4949E-4  1.1269E-5  2.2703E-4  2.7726E-4 10
+barramento 3.NumberSeized                   637.20     1.1583     634.00     639.00     10
+barramento 3.ScheduledUtilization            2.5305E-4  8.3099E-6  2.3557E-4  2.6660E-4 10
+barramento 2.NumberSeized                   637.20     1.1583     634.00     639.00     10
+barramento 2.ScheduledUtilization            2.7096E-4  7.3401E-6  2.5232E-4  2.8410E-4 10
+barramento 1.NumberSeized                   637.50     1.1802     634.00     640.00     10
+barramento 1.ScheduledUtilization            2.7471E-4  8.2857E-6  2.6084E-4  2.9441E-4 10
+System.NumberOut                            600.00     .00000     600.00     600.00     10
+
+Tempo executando a simulação: 9.43 minutos.
+Simulação completada.

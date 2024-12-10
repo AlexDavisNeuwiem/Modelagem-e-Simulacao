@@ -23,6 +23,7 @@ mensagem.WaitTime                           .00000     .00000     .00000     .00
 mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
 mensagem.OtherTime                          .00950      4.1335E-5 .00900     .01000        600    
 mensagem.TotalTime                          .01149      1.4861E-4 .00904     .01696        600    
+Aguarda transferencia do token.Queue.Waiti  .00000     .00000     .00000     .00000        601    
 Mensagem aloca maquina.Queue.WaitingTime    .00000     .00000     .00000     .00000       5702    
 Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       5101    
 
@@ -31,6 +32,7 @@ Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00
 Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
 ___________________________________________________________________________________________________
 
+transferindo_token Value                     5.0231E-4  4.1388E-5 .00000     1.0000     .00000    
 possui_token Value                          4.5064     (Insuf)    1.0000     8.0000     6.0000    
 mensagem.WIP                                .01149      1.4861E-4 .00000     1.0000     1.0000    
 maquina 1.NumberBusy                        .00118      2.4122E-5 .00000     1.0000     .00000    
@@ -81,6 +83,7 @@ barramento 2.Utilization                     2.8410E-4  3.1567E-5 .00000     1.0
 barramento 1.NumberBusy                      2.7593E-4  3.2348E-5 .00000     1.0000     .00000    
 barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
 barramento 1.Utilization                     2.7593E-4  3.2348E-5 .00000     1.0000     .00000    
+Aguarda transferencia do token.Queue.Numbe  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem aloca maquina.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
 
@@ -158,6 +161,7 @@ mensagem.WaitTime                           .00000     .00000     .00000     .00
 mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
 mensagem.OtherTime                          .00949      4.0481E-5 .00900     .01000        600    
 mensagem.TotalTime                          .01148      1.5513E-4 .00902     .01691        600    
+Aguarda transferencia do token.Queue.Waiti  .00000     .00000     .00000     .00000        601    
 Mensagem aloca maquina.Queue.WaitingTime    .00000     .00000     .00000     .00000       5693    
 Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       5092    
 
@@ -166,6 +170,7 @@ Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00
 Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
 ___________________________________________________________________________________________________
 
+transferindo_token Value                     4.8729E-4  4.0533E-5 .00000     1.0000     .00000    
 possui_token Value                          4.4717     (Insuf)    1.0000     8.0000     5.0000    
 mensagem.WIP                                .01148      1.5513E-4 .00000     1.0000     1.0000    
 maquina 1.NumberBusy                        .00119      3.1436E-5 .00000     1.0000     .00000    
@@ -216,6 +221,7 @@ barramento 2.Utilization                     2.8226E-4  3.4928E-5 .00000     1.0
 barramento 1.NumberBusy                      2.8098E-4  3.0545E-5 .00000     1.0000     .00000    
 barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
 barramento 1.Utilization                     2.8098E-4  3.0545E-5 .00000     1.0000     .00000    
+Aguarda transferencia do token.Queue.Numbe  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem aloca maquina.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
 
@@ -293,6 +299,7 @@ mensagem.WaitTime                           .00000     .00000     .00000     .00
 mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
 mensagem.OtherTime                          .00952      3.9633E-5 .00900     .01000        600    
 mensagem.TotalTime                          .01151      1.5755E-4 .00903     .01687        600    
+Aguarda transferencia do token.Queue.Waiti  .00000     .00000     .00000     .00000        601    
 Mensagem aloca maquina.Queue.WaitingTime    .00000     .00000     .00000     .00000       5714    
 Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       5113    
 
@@ -301,6 +308,7 @@ Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00
 Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
 ___________________________________________________________________________________________________
 
+transferindo_token Value                     5.2233E-4  3.9683E-5 .00000     1.0000     .00000    
 possui_token Value                          4.3483     (Insuf)    1.0000     8.0000     2.0000    
 mensagem.WIP                                .01151      1.5755E-4 .00000     1.0000     1.0000    
 maquina 1.NumberBusy                        .00121      4.2825E-5 .00000     1.0000     .00000    
@@ -351,6 +359,7 @@ barramento 2.Utilization                     2.6345E-4  3.0889E-5 .00000     1.0
 barramento 1.NumberBusy                      2.7256E-4  2.9414E-5 .00000     1.0000     .00000    
 barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
 barramento 1.Utilization                     2.7256E-4  2.9414E-5 .00000     1.0000     .00000    
+Aguarda transferencia do token.Queue.Numbe  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem aloca maquina.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
 
@@ -428,6 +437,7 @@ mensagem.WaitTime                           .00000     .00000     .00000     .00
 mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
 mensagem.OtherTime                          .00950      4.4568E-5 .00900     .01000        600    
 mensagem.TotalTime                          .01146      1.5515E-4 .00906     .01635        600    
+Aguarda transferencia do token.Queue.Waiti  .00000     .00000     .00000     .00000        601    
 Mensagem aloca maquina.Queue.WaitingTime    .00000     .00000     .00000     .00000       5703    
 Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       5102    
 
@@ -436,6 +446,7 @@ Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00
 Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
 ___________________________________________________________________________________________________
 
+transferindo_token Value                     5.0398E-4  4.4626E-5 .00000     1.0000     .00000    
 possui_token Value                          4.3182     (Insuf)    1.0000     8.0000     7.0000    
 mensagem.WIP                                .01146      1.5515E-4 .00000     1.0000     1.0000    
 maquina 1.NumberBusy                        .00120      4.2399E-5 .00000     1.0000     .00000    
@@ -486,6 +497,7 @@ barramento 2.Utilization                     2.6962E-4  2.7351E-5 .00000     1.0
 barramento 1.NumberBusy                      2.6840E-4  3.3185E-5 .00000     1.0000     .00000    
 barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
 barramento 1.Utilization                     2.6840E-4  3.3185E-5 .00000     1.0000     .00000    
+Aguarda transferencia do token.Queue.Numbe  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem aloca maquina.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
 
@@ -563,6 +575,7 @@ mensagem.WaitTime                           .00000     .00000     .00000     .00
 mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
 mensagem.OtherTime                          .00945      4.2360E-5 .00900     .01000        600    
 mensagem.TotalTime                          .01142      1.3857E-4 .00904     .01629        600    
+Aguarda transferencia do token.Queue.Waiti  .00000     .00000     .00000     .00000        601    
 Mensagem aloca maquina.Queue.WaitingTime    .00000     .00000     .00000     .00000       5670    
 Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       5069    
 
@@ -571,6 +584,7 @@ Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00
 Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
 ___________________________________________________________________________________________________
 
+transferindo_token Value                     4.4891E-4  4.2414E-5 .00000     1.0000     .00000    
 possui_token Value                          4.4668     (Insuf)    1.0000     8.0000     6.0000    
 mensagem.WIP                                .01142      1.3857E-4 .00000     1.0000     1.0000    
 maquina 1.NumberBusy                        .00115      2.9070E-5 .00000     1.0000     .00000    
@@ -621,6 +635,7 @@ barramento 2.Utilization                     2.6056E-4  2.2572E-5 .00000     1.0
 barramento 1.NumberBusy                      2.6353E-4  3.0515E-5 .00000     1.0000     .00000    
 barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
 barramento 1.Utilization                     2.6353E-4  3.0515E-5 .00000     1.0000     .00000    
+Aguarda transferencia do token.Queue.Numbe  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem aloca maquina.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
 
@@ -698,6 +713,7 @@ mensagem.WaitTime                           .00000     .00000     .00000     .00
 mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
 mensagem.OtherTime                          .00949      3.7468E-5 .00900     .01000        600    
 mensagem.TotalTime                          .01137      1.2918E-4 .00904     .01605        600    
+Aguarda transferencia do token.Queue.Waiti  .00000     .00000     .00000     .00000        601    
 Mensagem aloca maquina.Queue.WaitingTime    .00000     .00000     .00000     .00000       5698    
 Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       5097    
 
@@ -706,6 +722,7 @@ Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00
 Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
 ___________________________________________________________________________________________________
 
+transferindo_token Value                     4.9563E-4  3.7516E-5 .00000     1.0000     .00000    
 possui_token Value                          4.4115     (Insuf)    1.0000     8.0000     2.0000    
 mensagem.WIP                                .01137      1.2918E-4 .00000     1.0000     1.0000    
 maquina 1.NumberBusy                        .00119      3.4229E-5 .00000     1.0000     .00000    
@@ -756,6 +773,7 @@ barramento 2.Utilization                     2.5232E-4  2.5470E-5 .00000     1.0
 barramento 1.NumberBusy                      2.6084E-4  2.4483E-5 .00000     1.0000     .00000    
 barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
 barramento 1.Utilization                     2.6084E-4  2.4483E-5 .00000     1.0000     .00000    
+Aguarda transferencia do token.Queue.Numbe  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem aloca maquina.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
 
@@ -833,6 +851,7 @@ mensagem.WaitTime                           .00000     .00000     .00000     .00
 mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
 mensagem.OtherTime                          .00947      5.5117E-5 .00900     .01000        600    
 mensagem.TotalTime                          .01151      1.5275E-4 .00906     .01698        600    
+Aguarda transferencia do token.Queue.Waiti  .00000     .00000     .00000     .00000        601    
 Mensagem aloca maquina.Queue.WaitingTime    .00000     .00000     .00000     .00000       5682    
 Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       5081    
 
@@ -841,6 +860,7 @@ Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00
 Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
 ___________________________________________________________________________________________________
 
+transferindo_token Value                     4.6893E-4  5.5188E-5 .00000     1.0000     .00000    
 possui_token Value                          4.3917     (Insuf)    1.0000     8.0000     2.0000    
 mensagem.WIP                                .01151      1.5275E-4 .00000     1.0000     1.0000    
 maquina 1.NumberBusy                        .00119      4.6856E-5 .00000     1.0000     .00000    
@@ -891,6 +911,7 @@ barramento 2.Utilization                     2.7419E-4  3.3509E-5 .00000     1.0
 barramento 1.NumberBusy                      2.7133E-4  3.5225E-5 .00000     1.0000     .00000    
 barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
 barramento 1.Utilization                     2.7133E-4  3.5225E-5 .00000     1.0000     .00000    
+Aguarda transferencia do token.Queue.Numbe  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem aloca maquina.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
 
@@ -968,6 +989,7 @@ mensagem.WaitTime                           .00000     .00000     .00000     .00
 mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
 mensagem.OtherTime                          .00949      4.6289E-5 .00900     .01000        600    
 mensagem.TotalTime                          .01157      1.6284E-4 .00902     .01694        600    
+Aguarda transferencia do token.Queue.Waiti  .00000     .00000     .00000     .00000        601    
 Mensagem aloca maquina.Queue.WaitingTime    .00000     .00000     .00000     .00000       5696    
 Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       5095    
 
@@ -976,6 +998,7 @@ Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00
 Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
 ___________________________________________________________________________________________________
 
+transferindo_token Value                     4.9230E-4  4.6349E-5 .00000     1.0000     .00000    
 possui_token Value                          4.5333     (Insuf)    1.0000     8.0000     8.0000    
 mensagem.WIP                                .01157      1.6284E-4 .00000     1.0000     1.0000    
 maquina 1.NumberBusy                        .00118      3.9054E-5 .00000     1.0000     .00000    
@@ -1026,6 +1049,7 @@ barramento 2.Utilization                     2.6830E-4  2.9646E-5 .00000     1.0
 barramento 1.NumberBusy                      2.9441E-4  3.2990E-5 .00000     1.0000     .00000    
 barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
 barramento 1.Utilization                     2.9441E-4  3.2990E-5 .00000     1.0000     .00000    
+Aguarda transferencia do token.Queue.Numbe  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem aloca maquina.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
 
@@ -1103,6 +1127,7 @@ mensagem.WaitTime                           .00000     .00000     .00000     .00
 mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
 mensagem.OtherTime                          .00951      4.2724E-5 .00900     .01000        600    
 mensagem.TotalTime                          .01155      1.4802E-4 .00905     .01692        600    
+Aguarda transferencia do token.Queue.Waiti  .00000     .00000     .00000     .00000        601    
 Mensagem aloca maquina.Queue.WaitingTime    .00000     .00000     .00000     .00000       5705    
 Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       5104    
 
@@ -1111,6 +1136,7 @@ Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00
 Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
 ___________________________________________________________________________________________________
 
+transferindo_token Value                     5.0732E-4  4.2779E-5 .00000     1.0000     .00000    
 possui_token Value                          4.3714     (Insuf)    1.0000     8.0000     1.0000    
 mensagem.WIP                                .01155      1.4802E-4 .00000     1.0000     1.0000    
 maquina 1.NumberBusy                        .00121     (Corr)     .00000     1.0000     1.0000    
@@ -1161,6 +1187,7 @@ barramento 2.Utilization                     2.8146E-4  3.0526E-5 .00000     1.0
 barramento 1.NumberBusy                      2.9293E-4 (Corr)     .00000     1.0000     .00000    
 barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
 barramento 1.Utilization                     2.9293E-4 (Corr)     .00000     1.0000     .00000    
+Aguarda transferencia do token.Queue.Numbe  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem aloca maquina.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
 
@@ -1238,6 +1265,7 @@ mensagem.WaitTime                           .00000     .00000     .00000     .00
 mensagem.TranTime                           .00000     .00000     .00000     .00000        600    
 mensagem.OtherTime                          .00951      4.3254E-5 .00900     .01000        600    
 mensagem.TotalTime                          .01159      1.5623E-4 .00906     .01699        600    
+Aguarda transferencia do token.Queue.Waiti  .00000     .00000     .00000     .00000        601    
 Mensagem aloca maquina.Queue.WaitingTime    .00000     .00000     .00000     .00000       5710    
 Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00000       5109    
 
@@ -1246,6 +1274,7 @@ Mensagem utiliza o barramento.Queue.Waitin  .00000     .00000     .00000     .00
 Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
 ___________________________________________________________________________________________________
 
+transferindo_token Value                     5.1566E-4  4.3309E-5 .00000     1.0000     .00000    
 possui_token Value                          4.5650     (Insuf)    1.0000     8.0000     6.0000    
 mensagem.WIP                                .01159      1.5623E-4 .00000     1.0000     1.0000    
 maquina 1.NumberBusy                        .00118      3.2832E-5 .00000     1.0000     .00000    
@@ -1296,6 +1325,7 @@ barramento 2.Utilization                     2.7337E-4  2.6380E-5 .00000     1.0
 barramento 1.NumberBusy                      2.6614E-4  2.6525E-5 .00000     1.0000     .00000    
 barramento 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
 barramento 1.Utilization                     2.6614E-4  2.6525E-5 .00000     1.0000     .00000    
+Aguarda transferencia do token.Queue.Numbe  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem aloca maquina.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
 Mensagem utiliza o barramento.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
 
@@ -1398,5 +1428,5 @@ barramento 1.NumberSeized                   637.50     1.1802     634.00     640
 barramento 1.ScheduledUtilization            2.7471E-4  8.2857E-6  2.6084E-4  2.9441E-4 10
 System.NumberOut                            600.00     .00000     600.00     600.00     10
 
-Tempo executando a simulação: 13.15 minutos.
+Tempo executando a simulação: 10.35 minutos.
 Simulação completada.

@@ -3,6 +3,7 @@
 *.db
 *.Backup.doe
 *.dsn
+*.err
 *.html
 *.opw
 *.p
